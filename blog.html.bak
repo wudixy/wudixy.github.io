@@ -1,0 +1,37 @@
+---
+layout: page
+title: 案例介绍
+permalink: /blog/
+---
+<!-- Slider Start -->
+<section id="global-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>Get the latest on what we're doing</h1>
+          <p>Catch up with us, anytime and anywhere</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% for category in site.categories %}
+<h2>{{ category | first }}</h2> </span>{{ category | last | size }}</span> 
+<ul class="arc-list">
+{% for post in category.last %} 
+<li>{{ post.date | date:"%d/%m/%Y"}}<a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul> 
+{% endfor %}
+
+{% for post in site.posts %}
+<div class="post-area">
+  <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
+  <p class="post-date">{{ post.date | date_to_long_string }}</p>
+  <p>
+    {{ post.content | strip_html | truncatewords: 50 }}
+  </p>
+</div>
+{% endfor %}

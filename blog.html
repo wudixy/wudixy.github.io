@@ -16,12 +16,34 @@ permalink: /blog/
     </div>
   </div>
 </section>
-{% for post in site.posts %}
-<div class="post-area">
-  <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
-  <p class="post-date">{{ post.date | date_to_long_string }}</p>
-  <p>
-    {{ post.content | strip_html | truncatewords: 50 }}
-  </p>
-</div>
-{% endfor %}
+
+<table border="1" width="100%">
+<tr>
+   <td width="30%" valign="top" align="center" >
+       <p>&nbsp;</p>
+       <p>&nbsp;</p>
+       {% for category in site.categories %}
+        <h2>{{ category | first }}</h2> </span>{{ category | last | size }}</span> 
+        <ul class="arc-list">
+       {% for post in category.last %}  
+       <li>{{ post.date | date:"%d/%m/%Y"}}<a href="{{ post.url }}">{{ post.title }}</a></li>
+       {% endfor %}
+       </ul> 
+       {% endfor %}
+   </td>
+   <td>
+       <p>&nbsp;</p>
+   	   <p>{% for post in site.posts %} </p>
+       <div class="post-area">
+       <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
+       <p class="post-date">{{ post.date | date_to_long_string }}</p>
+       <p>
+       {{ post.content | strip_html | truncatewords: 50 }}
+       </p>
+       </div>
+      {% endfor %}
+   </td>
+</tr>
+</table>
+
+
