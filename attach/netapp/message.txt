@@ -1,0 +1,297 @@
+Sun Feb 19 00:03:50 CST [kern.log.rotate:notice]: System fas3240 (ID 2014687259) is running NetApp Release 8.0.2
+Sun Feb 19 00:33:30 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (PERFORMANCE DATA) INFO) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 00:33:30 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (PERFORMANCE DATA) INFO) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 00:37:33 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (PERFORMANCE DATA) INFO) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 00:37:33 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (PERFORMANCE DATA) INFO) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 00:41:35 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (PERFORMANCE DATA) INFO) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 00:41:35 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (PERFORMANCE DATA) INFO) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 00:45:37 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (PERFORMANCE DATA) INFO) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 00:45:37 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (PERFORMANCE DATA) INFO) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 00:49:39 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (PERFORMANCE DATA) INFO) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 00:49:39 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (PERFORMANCE DATA) INFO) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 00:53:41 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (PERFORMANCE DATA) INFO) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 00:53:41 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (PERFORMANCE DATA) INFO) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 00:57:44 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (PERFORMANCE DATA) INFO) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 00:57:44 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (PERFORMANCE DATA) INFO) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 01:00:00 CST [kern.uptime.filer:info]:   1:00am up 329 days,  1:49 143777902683 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7339439062 FCP ops, 4187630246 iSCSI ops
+Sun Feb 19 01:00:07 CST [raid.rg.scrub.resume:notice]: /aggr2/plex0/rg0: resuming scrub at stripe 106390320 (49% complete)
+Sun Feb 19 01:00:07 CST [raid.rg.scrub.resume:notice]: /aggr4/plex0/rg0: resuming scrub at stripe 93866064 (65% complete)
+Sun Feb 19 01:00:07 CST [raid.rg.scrub.resume:notice]: /aggr3/plex0/rg1: resuming scrub at stripe 41477112 (29% complete)
+Sun Feb 19 01:00:07 CST [raid.rg.scrub.resume:notice]: /aggr3/plex0/rg0: resuming scrub at stripe 100508656 (70% complete)
+Sun Feb 19 01:01:46 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (PERFORMANCE DATA) INFO) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 01:01:46 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (PERFORMANCE DATA) INFO) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 01:05:49 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (PERFORMANCE DATA) INFO) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 01:05:49 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (PERFORMANCE DATA) INFO) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 01:09:51 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (PERFORMANCE DATA) INFO) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 01:09:51 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (PERFORMANCE DATA) INFO) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 01:13:54 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (PERFORMANCE DATA) INFO) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 01:13:54 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (PERFORMANCE DATA) INFO) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 01:15:41 CST [ems.engine.inputSuppress:warning]: Event 'perf.archive.disabled' suppressed 23 times since Sat Feb 18 02:15:30 CST 2017.
+Sun Feb 19 01:15:41 CST [perf.archive.disabled:warning]: Performance archiver is currently disabled; consider enabling it.
+Sun Feb 19 01:17:56 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (PERFORMANCE DATA) INFO) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 01:17:56 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (PERFORMANCE DATA) INFO) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 01:21:59 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (PERFORMANCE DATA) INFO) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 01:21:59 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (PERFORMANCE DATA) INFO) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 01:26:01 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (PERFORMANCE DATA) INFO) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 01:26:01 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (PERFORMANCE DATA) INFO) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 01:30:04 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (PERFORMANCE DATA) INFO) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 01:30:04 CST [asup.post.drop:error]: AutoSupport message (HA Group Notification from fas3240 (PERFORMANCE DATA) INFO) for host (0) was not posted to NetApp. The system will drop the message
+Sun Feb 19 01:34:05 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (WEEKLY_LOG) INFO) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 01:34:05 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (WEEKLY_LOG) INFO) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 01:38:05 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (WEEKLY_LOG) INFO) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 01:38:05 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (WEEKLY_LOG) INFO) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 01:42:06 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (WEEKLY_LOG) INFO) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 01:42:06 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (WEEKLY_LOG) INFO) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 01:46:07 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (WEEKLY_LOG) INFO) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 01:46:07 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (WEEKLY_LOG) INFO) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 01:50:08 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (WEEKLY_LOG) INFO) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 01:50:08 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (WEEKLY_LOG) INFO) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 01:54:09 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (WEEKLY_LOG) INFO) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 01:54:09 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (WEEKLY_LOG) INFO) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 01:58:10 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (WEEKLY_LOG) INFO) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 01:58:10 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (WEEKLY_LOG) INFO) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 02:00:00 CST [kern.uptime.filer:info]:   2:00am up 329 days,  2:49 143795248713 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7340130037 FCP ops, 4188922698 iSCSI ops
+Sun Feb 19 02:02:11 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (WEEKLY_LOG) INFO) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 02:02:11 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (WEEKLY_LOG) INFO) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 02:06:12 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (WEEKLY_LOG) INFO) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 02:06:12 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (WEEKLY_LOG) INFO) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 02:10:13 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (WEEKLY_LOG) INFO) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 02:10:13 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (WEEKLY_LOG) INFO) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 02:14:13 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (WEEKLY_LOG) INFO) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 02:14:13 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (WEEKLY_LOG) INFO) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 02:18:14 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (WEEKLY_LOG) INFO) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 02:18:14 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (WEEKLY_LOG) INFO) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 02:22:15 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (WEEKLY_LOG) INFO) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 02:22:15 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (WEEKLY_LOG) INFO) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 02:23:54 CST [shm.threshold.allMediaErrors:error]: shm: Disk 0b.04.11 has crossed the combination media error threshold in a 10 minute window.
+Sun Feb 19 02:23:54 CST [raid.config.filesystem.disk.failed:error]: File system Disk /aggr4/plex0/rg0/0b.04.11 Shelf 4 Bay 11 [NETAPP   X412_S15K7560A15 NA08] S/N [6SL4JSNH0000N301660F] failed.
+Sun Feb 19 02:23:54 CST [disk.failmsg:error]: Disk 0b.04.11 (6SL4JSNH0000N301660F): exceeded combination recovered and medium error threshold in cycle.
+Sun Feb 19 02:23:55 CST [raid.disk.unload.done:info]: Unload of Disk 0b.04.11 Shelf 4 Bay 11 [NETAPP   X412_S15K7560A15 NA08] S/N [6SL4JSNH0000N301660F] has completed successfully
+Sun Feb 19 02:23:55 CST [callhome.fdsk.fault:error]: Call home for FILESYSTEM DISK FAILED
+Sun Feb 19 02:23:55 CST [raid.rg.recons.missing:notice]: RAID group /aggr4/plex0/rg0 is missing 1 disk(s).
+Sun Feb 19 02:23:55 CST [raid.rg.recons.info:notice]: Spare disk 3c.04.6 will be used to reconstruct one missing disk in RAID group /aggr4/plex0/rg0.
+Sun Feb 19 02:23:55 CST [raid.rg.recons.start:notice]: /aggr4/plex0/rg0: starting reconstruction, using disk 3c.04.6
+Sun Feb 19 02:23:55 CST [raid.rg.scrub.suspended:notice]: /aggr4/plex0/rg0: scrub suspended at stripe 112347432 after 1:23:48.42
+Sun Feb 19 02:23:55 CST [raid.rg.scrub.summary.pi:notice]: Scrub found 0 parity inconsistencies in /aggr4/plex0/rg0.
+Sun Feb 19 02:23:55 CST [raid.rg.scrub.summary.cksum:notice]: Scrub found 0 checksum errors in /aggr4/plex0/rg0.
+Sun Feb 19 02:23:55 CST [raid.rg.scrub.summary.media:notice]: Scrub found 0 media errors in /aggr4/plex0/rg0.
+Sun Feb 19 02:24:05 CST [raid.rg.scrub.start:notice]: /aggr1/plex0/rg0: starting scrub
+Sun Feb 19 02:24:31 CST [asup.general.file.missing:error]: Unable to find file: /etc/log/sis
+Sun Feb 19 02:24:50 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (WEEKLY_LOG) INFO) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 02:24:50 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (WEEKLY_LOG) INFO) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 02:29:04 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (WEEKLY_LOG) INFO) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 02:29:04 CST [asup.post.drop:error]: AutoSupport message (HA Group Notification from fas3240 (WEEKLY_LOG) INFO) for host (0) was not posted to NetApp. The system will drop the message
+Sun Feb 19 02:33:05 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (FILESYSTEM DISK FAILED) WARNING) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 02:33:05 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (FILESYSTEM DISK FAILED) WARNING) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 02:37:06 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (FILESYSTEM DISK FAILED) WARNING) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 02:37:06 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (FILESYSTEM DISK FAILED) WARNING) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 02:41:07 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (FILESYSTEM DISK FAILED) WARNING) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 02:41:07 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (FILESYSTEM DISK FAILED) WARNING) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 02:45:08 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (FILESYSTEM DISK FAILED) WARNING) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 02:45:08 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (FILESYSTEM DISK FAILED) WARNING) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 02:49:08 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (FILESYSTEM DISK FAILED) WARNING) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 02:49:08 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (FILESYSTEM DISK FAILED) WARNING) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 02:53:09 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (FILESYSTEM DISK FAILED) WARNING) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 02:53:09 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (FILESYSTEM DISK FAILED) WARNING) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 02:57:10 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (FILESYSTEM DISK FAILED) WARNING) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 02:57:10 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (FILESYSTEM DISK FAILED) WARNING) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 03:00:00 CST [kern.uptime.filer:info]:   3:00am up 329 days,  3:49 143811761050 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7342292157 FCP ops, 4190299456 iSCSI ops
+Sun Feb 19 03:00:00 CST [monitor.raid.reconstruct:warning]: Reconstructing broken data disk in RAID group /aggr4/plex0/rg0.
+Sun Feb 19 03:01:12 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (FILESYSTEM DISK FAILED) WARNING) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 03:01:12 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (FILESYSTEM DISK FAILED) WARNING) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 03:05:12 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (FILESYSTEM DISK FAILED) WARNING) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 03:05:12 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (FILESYSTEM DISK FAILED) WARNING) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 03:09:13 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (FILESYSTEM DISK FAILED) WARNING) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 03:09:13 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (FILESYSTEM DISK FAILED) WARNING) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 03:13:14 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (FILESYSTEM DISK FAILED) WARNING) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 03:13:14 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (FILESYSTEM DISK FAILED) WARNING) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 03:17:15 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (FILESYSTEM DISK FAILED) WARNING) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 03:17:15 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (FILESYSTEM DISK FAILED) WARNING) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 03:21:16 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (FILESYSTEM DISK FAILED) WARNING) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 03:21:16 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (FILESYSTEM DISK FAILED) WARNING) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 03:25:17 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (FILESYSTEM DISK FAILED) WARNING) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 03:25:17 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (FILESYSTEM DISK FAILED) WARNING) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 03:29:18 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (FILESYSTEM DISK FAILED) WARNING) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 03:29:18 CST [asup.post.drop:error]: AutoSupport message (HA Group Notification from fas3240 (FILESYSTEM DISK FAILED) WARNING) for host (0) was not posted to NetApp. The system will drop the message
+Sun Feb 19 04:00:00 CST [kern.uptime.filer:info]:   4:00am up 329 days,  4:49 143827922223 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7344546265 FCP ops, 4191476035 iSCSI ops
+Sun Feb 19 05:00:00 CST [kern.uptime.filer:info]:   5:00am up 329 days,  5:49 143842938336 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7346277998 FCP ops, 4192719382 iSCSI ops
+Sun Feb 19 05:00:02 CST [raid.fdr.reminder:warning]: Failed Disk 0b.04.11 Shelf 4 Bay 11 [NETAPP   X412_S15K7560A15 NA08] S/N [6SL4JSNH0000N301660F] is still present in the system and should be removed.
+Sun Feb 19 05:00:03 CST [callhome.nht.data:info]: Call home for DRIVE NHT DATA
+Sun Feb 19 05:56:16 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (DRIVE NHT DATA) INFO) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 05:56:16 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (DRIVE NHT DATA) INFO) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 06:00:00 CST [kern.uptime.filer:info]:   6:00am up 329 days,  6:49 143856036775 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7346855135 FCP ops, 4194006917 iSCSI ops
+Sun Feb 19 06:00:16 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (DRIVE NHT DATA) INFO) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 06:00:16 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (DRIVE NHT DATA) INFO) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 06:04:17 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (DRIVE NHT DATA) INFO) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 06:04:17 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (DRIVE NHT DATA) INFO) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 06:08:17 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (DRIVE NHT DATA) INFO) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 06:08:17 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (DRIVE NHT DATA) INFO) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 06:12:18 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (DRIVE NHT DATA) INFO) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 06:12:18 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (DRIVE NHT DATA) INFO) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 06:16:18 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (DRIVE NHT DATA) INFO) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 06:16:18 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (DRIVE NHT DATA) INFO) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 06:20:19 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (DRIVE NHT DATA) INFO) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 06:20:19 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (DRIVE NHT DATA) INFO) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 06:24:20 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (DRIVE NHT DATA) INFO) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 06:24:20 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (DRIVE NHT DATA) INFO) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 06:28:20 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (DRIVE NHT DATA) INFO) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 06:28:20 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (DRIVE NHT DATA) INFO) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 06:32:21 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (DRIVE NHT DATA) INFO) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 06:32:21 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (DRIVE NHT DATA) INFO) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 06:36:21 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (DRIVE NHT DATA) INFO) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 06:36:21 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (DRIVE NHT DATA) INFO) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 06:40:22 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (DRIVE NHT DATA) INFO) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 06:40:22 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (DRIVE NHT DATA) INFO) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 06:44:22 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (DRIVE NHT DATA) INFO) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 06:44:22 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (DRIVE NHT DATA) INFO) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 06:48:23 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (DRIVE NHT DATA) INFO) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 06:48:23 CST [asup.post.retry:info]: AutoSupport message (HA Group Notification from fas3240 (DRIVE NHT DATA) INFO) was not posted to NetApp for host (0). The system will retry later to post the message
+Sun Feb 19 06:49:14 CST [raid.rg.recons.done:notice]: /aggr4/plex0/rg0: reconstruction completed for 3c.04.6 in 4:25:19.36
+Sun Feb 19 06:52:23 CST [asup.post.proxy:info]: AutoSupport (HA Group Notification from fas3240 (DRIVE NHT DATA) INFO) cannot connect to url unknown through proxy (specified host not found)
+Sun Feb 19 06:52:23 CST [asup.post.drop:error]: AutoSupport message (HA Group Notification from fas3240 (DRIVE NHT DATA) INFO) for host (0) was not posted to NetApp. The system will drop the message
+Sun Feb 19 07:00:00 CST [kern.uptime.filer:info]:   7:00am up 329 days,  7:49 143869017088 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7347830057 FCP ops, 4195274953 iSCSI ops
+Sun Feb 19 07:00:00 CST [raid.rg.scrub.suspended:notice]: /aggr1/plex0/rg0: scrub suspended at stripe 28768272 after 4:35:54.40
+Sun Feb 19 07:00:00 CST [raid.rg.scrub.summary.pi:notice]: Scrub found 0 parity inconsistencies in /aggr1/plex0/rg0.
+Sun Feb 19 07:00:00 CST [raid.rg.scrub.summary.cksum:notice]: Scrub found 0 checksum errors in /aggr1/plex0/rg0.
+Sun Feb 19 07:00:00 CST [raid.rg.scrub.summary.media:notice]: Scrub found 0 media errors in /aggr1/plex0/rg0.
+Sun Feb 19 07:00:00 CST [raid.rg.scrub.suspended:notice]: /aggr2/plex0/rg0: scrub suspended at stripe 125766944 after 5:59:54.73
+Sun Feb 19 07:00:00 CST [raid.rg.scrub.summary.pi:notice]: Scrub found 0 parity inconsistencies in /aggr2/plex0/rg0.
+Sun Feb 19 07:00:00 CST [raid.rg.scrub.summary.cksum:notice]: Scrub found 0 checksum errors in /aggr2/plex0/rg0.
+Sun Feb 19 07:00:00 CST [raid.rg.scrub.summary.media:notice]: Scrub found 0 media errors in /aggr2/plex0/rg0.
+Sun Feb 19 07:00:00 CST [raid.rg.scrub.suspended:notice]: /aggr3/plex0/rg0: scrub suspended at stripe 143169096 after 5:59:53.09
+Sun Feb 19 07:00:00 CST [raid.rg.scrub.summary.pi:notice]: Scrub found 0 parity inconsistencies in /aggr3/plex0/rg0.
+Sun Feb 19 07:00:00 CST [raid.rg.scrub.summary.cksum:notice]: Scrub found 0 checksum errors in /aggr3/plex0/rg0.
+Sun Feb 19 07:00:00 CST [raid.rg.scrub.summary.media:notice]: Scrub found 0 media errors in /aggr3/plex0/rg0.
+Sun Feb 19 07:00:00 CST [raid.rg.scrub.suspended:notice]: /aggr3/plex0/rg1: scrub suspended at stripe 88176528 after 5:59:53.24
+Sun Feb 19 07:00:00 CST [raid.rg.scrub.summary.pi:notice]: Scrub found 0 parity inconsistencies in /aggr3/plex0/rg1.
+Sun Feb 19 07:00:00 CST [raid.rg.scrub.summary.cksum:notice]: Scrub found 0 checksum errors in /aggr3/plex0/rg1.
+Sun Feb 19 07:00:00 CST [raid.rg.scrub.summary.media:notice]: Scrub found 0 media errors in /aggr3/plex0/rg1.
+Sun Feb 19 07:00:00 CST [raid.scrub.suspended.timer:notice]: Disk scrub suspended because the scrub time limit 360 was exceeded. It will resume at the next weekly/scheduled scrub.
+Sun Feb 19 08:00:00 CST [kern.uptime.filer:info]:   8:00am up 329 days,  8:49 143886516738 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7348403345 FCP ops, 4196565435 iSCSI ops
+Sun Feb 19 09:00:00 CST [kern.uptime.filer:info]:   9:00am up 329 days,  9:49 143899489401 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7348978570 FCP ops, 4197831253 iSCSI ops
+Sun Feb 19 10:00:00 CST [kern.uptime.filer:info]:  10:00am up 329 days, 10:49 143912174449 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7349586879 FCP ops, 4199122511 iSCSI ops
+Sun Feb 19 11:00:00 CST [kern.uptime.filer:info]:  11:00am up 329 days, 11:49 143926552228 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7350616257 FCP ops, 4200385857 iSCSI ops
+Sun Feb 19 12:00:00 CST [kern.uptime.filer:info]:  12:00pm up 329 days, 12:49 143940946278 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7351567986 FCP ops, 4201677591 iSCSI ops
+Sun Feb 19 13:00:00 CST [kern.uptime.filer:info]:   1:00pm up 329 days, 13:49 143953020617 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7352318789 FCP ops, 4202942731 iSCSI ops
+Sun Feb 19 14:00:00 CST [kern.uptime.filer:info]:   2:00pm up 329 days, 14:49 143964871387 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7353076824 FCP ops, 4204233517 iSCSI ops
+Sun Feb 19 15:00:00 CST [kern.uptime.filer:info]:   3:00pm up 329 days, 15:49 143976538584 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7353725626 FCP ops, 4205497207 iSCSI ops
+Sun Feb 19 16:00:00 CST [kern.uptime.filer:info]:   4:00pm up 329 days, 16:49 143988424617 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7354259070 FCP ops, 4206788877 iSCSI ops
+Sun Feb 19 17:00:00 CST [kern.uptime.filer:info]:   5:00pm up 329 days, 17:49 144000172441 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7354774417 FCP ops, 4208053304 iSCSI ops
+Sun Feb 19 18:00:00 CST [kern.uptime.filer:info]:   6:00pm up 329 days, 18:49 144012101239 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7355319047 FCP ops, 4209341202 iSCSI ops
+Sun Feb 19 19:00:00 CST [kern.uptime.filer:info]:   7:00pm up 329 days, 19:49 144023716058 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7355844341 FCP ops, 4210608128 iSCSI ops
+Sun Feb 19 20:00:00 CST [kern.uptime.filer:info]:   8:00pm up 329 days, 20:49 144035157994 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7356349504 FCP ops, 4211893782 iSCSI ops
+Sun Feb 19 21:00:00 CST [kern.uptime.filer:info]:   9:00pm up 329 days, 21:49 144046568446 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7356863327 FCP ops, 4213162988 iSCSI ops
+Sun Feb 19 22:00:00 CST [kern.uptime.filer:info]:  10:00pm up 329 days, 22:49 144058237448 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7357402423 FCP ops, 4214449717 iSCSI ops
+Sun Feb 19 23:00:00 CST [kern.uptime.filer:info]:  11:00pm up 329 days, 23:49 144069652230 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7357927738 FCP ops, 4215719349 iSCSI ops
+Mon Feb 20 00:00:00 CST [kern.uptime.filer:info]:  12:00am up 330 days, 49 mins, 144081165330 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7358443524 FCP ops, 4216774414 iSCSI ops
+Mon Feb 20 01:00:00 CST [kern.uptime.filer:info]:   1:00am up 330 days,  1:49 144096880975 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7359262470 FCP ops, 4218351282 iSCSI ops
+Mon Feb 20 01:01:51 CST [telnet_0:info]: root logged in from host: 76.239.87.50
+Mon Feb 20 01:15:50 CST [ems.engine.inputSuppress:warning]: Event 'perf.archive.disabled' suppressed 23 times since Sun Feb 19 02:15:42 CST 2017.
+Mon Feb 20 01:15:50 CST [perf.archive.disabled:warning]: Performance archiver is currently disabled; consider enabling it.
+Mon Feb 20 02:00:00 CST [kern.uptime.filer:info]:   2:00am up 330 days,  2:49 144114650270 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7360176141 FCP ops, 4219646573 iSCSI ops
+Mon Feb 20 03:00:00 CST [kern.uptime.filer:info]:   3:00am up 330 days,  3:49 144131322817 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7362493951 FCP ops, 4221022451 iSCSI ops
+Mon Feb 20 04:00:00 CST [kern.uptime.filer:info]:   4:00am up 330 days,  4:49 144148036785 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7364782577 FCP ops, 4222196128 iSCSI ops
+Mon Feb 20 05:00:00 CST [kern.uptime.filer:info]:   5:00am up 330 days,  5:49 144163283875 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7365663707 FCP ops, 4223475326 iSCSI ops
+Mon Feb 20 05:00:01 CST [raid.fdr.reminder:warning]: Failed Disk 0b.04.11 Shelf 4 Bay 11 [NETAPP   X412_S15K7560A15 NA08] S/N [6SL4JSNH0000N301660F] is still present in the system and should be removed.
+Mon Feb 20 06:00:00 CST [kern.uptime.filer:info]:   6:00am up 330 days,  6:49 144176535741 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7366209610 FCP ops, 4224754448 iSCSI ops
+Mon Feb 20 07:00:00 CST [kern.uptime.filer:info]:   7:00am up 330 days,  7:49 144188162894 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7366749410 FCP ops, 4226029328 iSCSI ops
+Mon Feb 20 08:00:00 CST [kern.uptime.filer:info]:   8:00am up 330 days,  8:49 144204507451 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7367319006 FCP ops, 4227312189 iSCSI ops
+Mon Feb 20 09:00:00 CST [kern.uptime.filer:info]:   9:00am up 330 days,  9:49 144217313067 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7367865731 FCP ops, 4228585097 iSCSI ops
+Mon Feb 20 10:00:00 CST [kern.uptime.filer:info]:  10:00am up 330 days, 10:49 144232070520 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7368464179 FCP ops, 4229871500 iSCSI ops
+Mon Feb 20 11:00:00 CST [kern.uptime.filer:info]:  11:00am up 330 days, 11:49 144247437191 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7369181246 FCP ops, 4231141778 iSCSI ops
+Mon Feb 20 12:00:00 CST [kern.uptime.filer:info]:  12:00pm up 330 days, 12:49 144261951616 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7369953726 FCP ops, 4232428949 iSCSI ops
+Mon Feb 20 13:00:00 CST [kern.uptime.filer:info]:   1:00pm up 330 days, 13:49 144274444909 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7370655529 FCP ops, 4233696489 iSCSI ops
+Mon Feb 20 14:00:00 CST [kern.uptime.filer:info]:   2:00pm up 330 days, 14:49 144288039369 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7371711462 FCP ops, 4234986265 iSCSI ops
+Mon Feb 20 15:00:00 CST [kern.uptime.filer:info]:   3:00pm up 330 days, 15:49 144301223161 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7374973373 FCP ops, 4236251499 iSCSI ops
+Mon Feb 20 15:22:04 CST [raid.disk.missing:info]: Disk 0b.04.11 Shelf 4 Bay 11 [NETAPP   X412_S15K7560A15 NA08] S/N [6SL4JSNH0000N301660F] is missing from the system
+Mon Feb 20 15:22:16 CST [sfu.firmwareUpToDate:info]: Firmware is up-to-date on all disk shelves.
+Mon Feb 20 15:22:28 CST [diskown.changingOwner:info]: changing ownership for disk 3c.04.11 (S/N 6SL74VL50000N4091E6U) from unowned (ID 4294967295) to fas3240 (ID 2014687259)
+Mon Feb 20 15:22:28 CST [sfu.firmwareUpToDate:info]: Firmware is up-to-date on all disk shelves.
+Mon Feb 20 15:22:28 CST [sfu.firmwareUpToDate:info]: Firmware is up-to-date on all disk shelves.
+Mon Feb 20 15:24:15 CST [telnet_0:info]: root logged in from host: 76.239.87.50
+Mon Feb 20 16:00:00 CST [kern.uptime.filer:info]:   4:00pm up 330 days, 16:49 144314776442 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7377622350 FCP ops, 4237543570 iSCSI ops
+Mon Feb 20 17:00:00 CST [kern.uptime.filer:info]:   5:00pm up 330 days, 17:49 144327921568 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7378538954 FCP ops, 4238807036 iSCSI ops
+Mon Feb 20 18:00:00 CST [kern.uptime.filer:info]:   6:00pm up 330 days, 18:49 144341323130 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7379518593 FCP ops, 4240096375 iSCSI ops
+Mon Feb 20 19:00:00 CST [kern.uptime.filer:info]:   7:00pm up 330 days, 19:49 144353435642 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7380308764 FCP ops, 4241361077 iSCSI ops
+Mon Feb 20 20:00:00 CST [kern.uptime.filer:info]:   8:00pm up 330 days, 20:49 144366764052 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7381084656 FCP ops, 4242651364 iSCSI ops
+Mon Feb 20 21:00:00 CST [kern.uptime.filer:info]:   9:00pm up 330 days, 21:49 144379768115 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7381922292 FCP ops, 4243918060 iSCSI ops
+Mon Feb 20 22:00:00 CST [kern.uptime.filer:info]:  10:00pm up 330 days, 22:49 144392135787 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7383169194 FCP ops, 4245206251 iSCSI ops
+Mon Feb 20 23:00:00 CST [kern.uptime.filer:info]:  11:00pm up 330 days, 23:49 144406807093 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7384578201 FCP ops, 4246472036 iSCSI ops
+Tue Feb 21 00:00:00 CST [kern.uptime.filer:info]:  12:00am up 331 days, 49 mins, 144419139407 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7386178230 FCP ops, 4247772471 iSCSI ops
+Tue Feb 21 01:00:00 CST [kern.uptime.filer:info]:   1:00am up 331 days,  1:49 144435274592 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7387648040 FCP ops, 4249402272 iSCSI ops
+Tue Feb 21 01:15:58 CST [ems.engine.inputSuppress:warning]: Event 'perf.archive.disabled' suppressed 23 times since Mon Feb 20 02:15:50 CST 2017.
+Tue Feb 21 01:15:58 CST [perf.archive.disabled:warning]: Performance archiver is currently disabled; consider enabling it.
+Tue Feb 21 02:00:00 CST [kern.uptime.filer:info]:   2:00am up 331 days,  2:49 144454138792 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7388627749 FCP ops, 4250748368 iSCSI ops
+Tue Feb 21 03:00:00 CST [kern.uptime.filer:info]:   3:00am up 331 days,  3:49 144471130614 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7391176411 FCP ops, 4252180526 iSCSI ops
+Tue Feb 21 04:00:00 CST [kern.uptime.filer:info]:   4:00am up 331 days,  4:49 144488102538 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7393045760 FCP ops, 4253399305 iSCSI ops
+Tue Feb 21 05:00:00 CST [kern.uptime.filer:info]:   5:00am up 331 days,  5:49 144502708079 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7393900023 FCP ops, 4254733374 iSCSI ops
+Tue Feb 21 06:00:00 CST [kern.uptime.filer:info]:   6:00am up 331 days,  6:49 144515889714 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7394444971 FCP ops, 4256065200 iSCSI ops
+Tue Feb 21 07:00:00 CST [kern.uptime.filer:info]:   7:00am up 331 days,  7:49 144527810950 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7394985085 FCP ops, 4257396493 iSCSI ops
+Tue Feb 21 08:00:00 CST [kern.uptime.filer:info]:   8:00am up 331 days,  8:49 144545348932 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7395540485 FCP ops, 4258731905 iSCSI ops
+Tue Feb 21 09:00:00 CST [kern.uptime.filer:info]:   9:00am up 331 days,  9:49 144558543805 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7396097943 FCP ops, 4260059981 iSCSI ops
+Tue Feb 21 10:00:00 CST [kern.uptime.filer:info]:  10:00am up 331 days, 10:49 144572560541 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7396888218 FCP ops, 4261398569 iSCSI ops
+Tue Feb 21 11:00:00 CST [kern.uptime.filer:info]:  11:00am up 331 days, 11:49 144586331385 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7397888898 FCP ops, 4262722119 iSCSI ops
+Tue Feb 21 12:00:00 CST [kern.uptime.filer:info]:  12:00pm up 331 days, 12:49 144604428068 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7399035011 FCP ops, 4264064643 iSCSI ops
+Tue Feb 21 13:00:00 CST [kern.uptime.filer:info]:   1:00pm up 331 days, 13:49 144621055869 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7400254744 FCP ops, 4265384766 iSCSI ops
+Tue Feb 21 14:00:00 CST [kern.uptime.filer:info]:   2:00pm up 331 days, 14:49 144638894333 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7401323525 FCP ops, 4266730069 iSCSI ops
+Tue Feb 21 15:00:00 CST [kern.uptime.filer:info]:   3:00pm up 331 days, 15:49 144656827494 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7403034555 FCP ops, 4268046520 iSCSI ops
+Tue Feb 21 16:00:00 CST [kern.uptime.filer:info]:   4:00pm up 331 days, 16:49 144675693978 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7404471545 FCP ops, 4269389297 iSCSI ops
+Tue Feb 21 17:00:00 CST [kern.uptime.filer:info]:   5:00pm up 331 days, 17:49 144692199183 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7406125433 FCP ops, 4270704392 iSCSI ops
+Tue Feb 21 18:00:00 CST [kern.uptime.filer:info]:   6:00pm up 331 days, 18:49 144706020180 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7407106100 FCP ops, 4272048727 iSCSI ops
+Tue Feb 21 19:00:00 CST [kern.uptime.filer:info]:   7:00pm up 331 days, 19:49 144718769143 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7408244875 FCP ops, 4273367360 iSCSI ops
+Tue Feb 21 20:00:00 CST [kern.uptime.filer:info]:   8:00pm up 331 days, 20:49 144731041348 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7409030192 FCP ops, 4274711277 iSCSI ops
+Tue Feb 21 21:00:00 CST [kern.uptime.filer:info]:   9:00pm up 331 days, 21:49 144743412270 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7409523634 FCP ops, 4276030116 iSCSI ops
+Tue Feb 21 22:00:00 CST [kern.uptime.filer:info]:  10:00pm up 331 days, 22:49 144756824362 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7410234711 FCP ops, 4277371800 iSCSI ops
+Tue Feb 21 23:00:00 CST [kern.uptime.filer:info]:  11:00pm up 331 days, 23:49 144772998914 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7410889172 FCP ops, 4278691117 iSCSI ops
+Wed Feb 22 00:00:00 CST [kern.uptime.filer:info]:  12:00am up 332 days, 49 mins, 144784997310 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7411390694 FCP ops, 4279798270 iSCSI ops
+Wed Feb 22 01:00:00 CST [kern.uptime.filer:info]:   1:00am up 332 days,  1:49 144801817590 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7412433308 FCP ops, 4281426440 iSCSI ops
+Wed Feb 22 01:16:08 CST [ems.engine.inputSuppress:warning]: Event 'perf.archive.disabled' suppressed 23 times since Tue Feb 21 02:15:59 CST 2017.
+Wed Feb 22 01:16:08 CST [perf.archive.disabled:warning]: Performance archiver is currently disabled; consider enabling it.
+Wed Feb 22 02:00:00 CST [kern.uptime.filer:info]:   2:00am up 332 days,  2:49 144819996064 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7413347898 FCP ops, 4282772382 iSCSI ops
+Wed Feb 22 03:00:00 CST [kern.uptime.filer:info]:   3:00am up 332 days,  3:49 144836329154 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7415935513 FCP ops, 4284203791 iSCSI ops
+Wed Feb 22 04:00:00 CST [kern.uptime.filer:info]:   4:00am up 332 days,  4:49 144854225476 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7417999686 FCP ops, 4285427047 iSCSI ops
+Wed Feb 22 05:00:00 CST [kern.uptime.filer:info]:   5:00am up 332 days,  5:49 144868260800 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7418819595 FCP ops, 4286761299 iSCSI ops
+Wed Feb 22 06:00:00 CST [kern.uptime.filer:info]:   6:00am up 332 days,  6:49 144881185663 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7419345793 FCP ops, 4288096156 iSCSI ops
+Wed Feb 22 07:00:00 CST [kern.uptime.filer:info]:   7:00am up 332 days,  7:49 144892756869 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7419869330 FCP ops, 4289426237 iSCSI ops
+Wed Feb 22 08:00:00 CST [kern.uptime.filer:info]:   8:00am up 332 days,  8:49 144909926628 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7420420173 FCP ops, 4290761428 iSCSI ops
+Wed Feb 22 09:00:00 CST [kern.uptime.filer:info]:   9:00am up 332 days,  9:49 144924581039 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7421102858 FCP ops, 4292088845 iSCSI ops
+Wed Feb 22 10:00:00 CST [kern.uptime.filer:info]:  10:00am up 332 days, 10:49 144941961678 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7422399878 FCP ops, 4293426509 iSCSI ops
+Wed Feb 22 11:00:00 CST [kern.uptime.filer:info]:  11:00am up 332 days, 11:49 144960517509 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7423524967 FCP ops, 4294749369 iSCSI ops
+Wed Feb 22 12:00:00 CST [kern.uptime.filer:info]:  12:00pm up 332 days, 12:49 144978056514 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7424539475 FCP ops, 4296090976 iSCSI ops
+Wed Feb 22 13:00:00 CST [kern.uptime.filer:info]:   1:00pm up 332 days, 13:49 144994798212 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7425506702 FCP ops, 4297410069 iSCSI ops
+Wed Feb 22 14:00:00 CST [kern.uptime.filer:info]:   2:00pm up 332 days, 14:49 145009548163 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7426251332 FCP ops, 4298754860 iSCSI ops
+Wed Feb 22 15:00:00 CST [kern.uptime.filer:info]:   3:00pm up 332 days, 15:49 145024449739 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7427114833 FCP ops, 4300072599 iSCSI ops
+Wed Feb 22 16:00:00 CST [kern.uptime.filer:info]:   4:00pm up 332 days, 16:49 145038723942 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7427912678 FCP ops, 4301415984 iSCSI ops
+Wed Feb 22 16:40:59 CST [raid.tetris.media.recommend.reassign.err:info]: Block recommended for reassignment on Disk /aggr1/plex0/rg0/3c.03.20 Shelf 3 Bay 20 [NETAPP   X412_HVIPC560A15 NA03] S/N [J9Y5J7LL], block #81316854 during stripe write
+Wed Feb 22 17:00:00 CST [kern.uptime.filer:info]:   5:00pm up 332 days, 17:49 145054563863 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7428964615 FCP ops, 4302734438 iSCSI ops
+Wed Feb 22 18:00:00 CST [kern.uptime.filer:info]:   6:00pm up 332 days, 18:49 145069413678 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7429571371 FCP ops, 4304077691 iSCSI ops
+Wed Feb 22 19:00:00 CST [kern.uptime.filer:info]:   7:00pm up 332 days, 19:49 145082756195 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7430153812 FCP ops, 4305395350 iSCSI ops
+Wed Feb 22 20:00:00 CST [kern.uptime.filer:info]:   8:00pm up 332 days, 20:49 145094849520 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7430663571 FCP ops, 4306739812 iSCSI ops
+Wed Feb 22 21:00:00 CST [kern.uptime.filer:info]:   9:00pm up 332 days, 21:49 145107089143 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7431174739 FCP ops, 4308057683 iSCSI ops
+Wed Feb 22 22:00:00 CST [kern.uptime.filer:info]:  10:00pm up 332 days, 22:49 145120719814 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7431963148 FCP ops, 4309400084 iSCSI ops
+Wed Feb 22 23:00:00 CST [kern.uptime.filer:info]:  11:00pm up 332 days, 23:49 145134177191 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7432614764 FCP ops, 4310721523 iSCSI ops
+Thu Feb 23 00:00:00 CST [kern.uptime.filer:info]:  12:00am up 333 days, 49 mins, 145146001009 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7433145104 FCP ops, 4311828733 iSCSI ops
+Thu Feb 23 01:00:00 CST [kern.uptime.filer:info]:   1:00am up 333 days,  1:49 145161285018 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7433958915 FCP ops, 4313405030 iSCSI ops
+Thu Feb 23 01:16:17 CST [ems.engine.inputSuppress:warning]: Event 'perf.archive.disabled' suppressed 23 times since Wed Feb 22 02:16:08 CST 2017.
+Thu Feb 23 01:16:17 CST [perf.archive.disabled:warning]: Performance archiver is currently disabled; consider enabling it.
+Thu Feb 23 02:00:00 CST [kern.uptime.filer:info]:   2:00am up 333 days,  2:49 145180057158 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7435301373 FCP ops, 4314697442 iSCSI ops
+Thu Feb 23 03:00:00 CST [kern.uptime.filer:info]:   3:00am up 333 days,  3:49 145197260635 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7441373350 FCP ops, 4316075589 iSCSI ops
+Thu Feb 23 04:00:00 CST [kern.uptime.filer:info]:   4:00am up 333 days,  4:49 145216367784 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7445025135 FCP ops, 4317252091 iSCSI ops
+Thu Feb 23 05:00:00 CST [kern.uptime.filer:info]:   5:00am up 333 days,  5:49 145230819132 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7446530058 FCP ops, 4318532367 iSCSI ops
+Thu Feb 23 06:00:00 CST [kern.uptime.filer:info]:   6:00am up 333 days,  6:49 145244311426 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7447090732 FCP ops, 4319811383 iSCSI ops
+Thu Feb 23 07:00:00 CST [kern.uptime.filer:info]:   7:00am up 333 days,  7:49 145256016774 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7447633254 FCP ops, 4321087126 iSCSI ops
+Thu Feb 23 08:00:00 CST [kern.uptime.filer:info]:   8:00am up 333 days,  8:49 145273247847 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7448192894 FCP ops, 4322370612 iSCSI ops
+Thu Feb 23 09:00:00 CST [kern.uptime.filer:info]:   9:00am up 333 days,  9:49 145286101062 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7448772249 FCP ops, 4323644006 iSCSI ops
+Thu Feb 23 10:00:00 CST [kern.uptime.filer:info]:  10:00am up 333 days, 10:49 145301565099 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7449350400 FCP ops, 4324930605 iSCSI ops
+Thu Feb 23 11:00:00 CST [kern.uptime.filer:info]:  11:00am up 333 days, 11:48 145316715411 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7450015348 FCP ops, 4324972742 iSCSI ops
+Thu Feb 23 11:39:49 CST [openssh.invalid.channel.req:warning]: SSH client (SSH-2.0-nsssh2_5.0.0012 NetSarang Computer, Inc.) from 76.239.87.50 sent unsupported channel request (10, x11-req).
+Thu Feb 23 12:00:00 CST [kern.uptime.filer:info]:  12:00pm up 333 days, 12:48 145330797435 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7450985929 FCP ops, 4324978856 iSCSI ops
+Thu Feb 23 13:00:00 CST [kern.uptime.filer:info]:   1:00pm up 333 days, 13:48 145342858494 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7451790617 FCP ops, 4324984895 iSCSI ops
+Thu Feb 23 14:00:00 CST [kern.uptime.filer:info]:   2:00pm up 333 days, 14:48 145355773215 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7452565272 FCP ops, 4324991016 iSCSI ops
+Thu Feb 23 15:00:00 CST [kern.uptime.filer:info]:   3:00pm up 333 days, 15:48 145370348658 NFS ops, 2813 CIFS ops, 0 HTTP ops, 7453314017 FCP ops, 4324997991 iSCSI ops
+Thu Feb 23 15:26:26 CST [sshd_0:CRITICAL]: fatal: no kex alg
+Thu Feb 23 15:27:13 CST [telnet_0:info]: root logged in from host: 84.239.224.96
+Thu Feb 23 15:43:28 CST [HTTPPool03:warning]: HTTP Authentication from 84.239.224.96 using NTLM failed
+Thu Feb 23 15:45:57 CST [HTTPPool02:warning]: HTTP Authentication from 84.239.224.96 using NTLM failed
+Thu Feb 23 16:00:00 CST [kern.uptime.filer:info]:   4:00pm up 333 days, 16:48 145384352018 NFS ops, 2813 CIFS ops, 42 HTTP ops, 7453984982 FCP ops, 4325004897 iSCSI ops
+Thu Feb 23 16:01:19 CST [telnet_0:info]: root logged in from host: 84.239.224.110

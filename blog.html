@@ -22,6 +22,14 @@ permalink: /blog/
    <td width="30%" valign="top" align="center" >
        <p>&nbsp;</p>
        <p>&nbsp;</p>
+       <!-- tags test
+       {% for tag in site.tags %}
+           {% if tag[0]=="a" %}
+           <a href="/show_by_tag.html?tag={{ tag[0] }}"> {{ tag[0] }}</a>
+	   {% endif %}
+       {% endfor %}
+       -->
+
        {% for category in site.categories %}
         <h2>{{ category | first }}</h2> </span>{{ category | size }}</span> 
         <ul class="arc-list">

@@ -1,0 +1,59 @@
+Trace file /data/oracle/app/oracle/product/11.2.0/diag/rdbms/test/TEST/trace/TEST_j001_4848.trc
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+ORACLE_HOME = /data/oracle/app/oracle/product/11.2.0/dbhome_1
+System name:	Linux
+Node name:	rhel58
+Release:	2.6.18-416.el5
+Version:	#1 SMP Fri Oct 28 11:52:49 UTC 2016
+Machine:	x86_64
+Instance name: TEST
+Redo thread mounted by this instance: 1
+Oracle process number: 30
+Unix process pid: 4848, image: oracle@rhel58 (J001)
+
+
+*** 2017-02-24 14:08:58.265
+*** SESSION ID:(38.1) 2017-02-24 14:08:58.265
+*** CLIENT ID:() 2017-02-24 14:08:58.265
+*** SERVICE NAME:(SYS$USERS) 2017-02-24 14:08:58.265
+*** MODULE NAME:() 2017-02-24 14:08:58.265
+*** ACTION NAME:() 2017-02-24 14:08:58.265
+ 
+--------Dumping Sorted Master Trigger List --------
+Trigger Owner : SYSMAN
+Trigger Name : CHECK_DUPLICATE_TARGETS
+--------Dumping Trigger Sublists --------
+ trigger sublist 0 :
+ trigger sublist 1 :
+Trigger Owner : SYSMAN
+Trigger Name : CHECK_DUPLICATE_TARGETS
+ trigger sublist 2 :
+ trigger sublist 3 :
+ trigger sublist 4 :
+
+*** 2017-02-24 14:08:59.921
+--------Dumping Sorted Master Trigger List --------
+Trigger Owner : SYSMAN
+Trigger Name : EM_VIOLATION_STMT_INS
+Trigger Owner : SYSMAN
+Trigger Name : EM_VIOLATION_CHECKS
+--------Dumping Trigger Sublists --------
+ trigger sublist 0 :
+ trigger sublist 1 :
+Trigger Owner : SYSMAN
+Trigger Name : EM_VIOLATION_CHECKS
+ trigger sublist 2 :
+Trigger Owner : SYSMAN
+Trigger Name : EM_VIOLATION_STMT_INS
+ trigger sublist 3 :
+ trigger sublist 4 :
+
+*** 2017-02-24 14:09:00.220
+--------Dumping Sorted Master Trigger List --------
+--------Dumping Trigger Sublists --------
+ trigger sublist 0 :
+ trigger sublist 1 :
+ trigger sublist 2 :
+ trigger sublist 3 :
+ trigger sublist 4 :

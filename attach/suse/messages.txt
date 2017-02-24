@@ -1,0 +1,322 @@
+Mar 20 21:32:40 linux syslog-ng[5514]: syslog-ng starting up; version='2.0.9'
+Mar 20 21:32:44 linux rchal: CPU frequency scaling is not supported by your processor.
+Mar 20 21:32:44 linux rchal: boot with 'CPUFREQ=no' in to avoid this warning.
+Mar 20 21:32:44 linux rchal: Cannot load cpufreq governors - No cpufreq driver available
+Mar 20 21:32:45 linux kernel: klogd 1.4.1, log source = /proc/kmsg started.
+Mar 20 21:32:45 linux kernel: [   11.442094] type=1400 audit(1395365534.344:2): apparmor="STATUS" operation="profile_load" name="/bin/ping" pid=983 comm="apparmor_parser"
+Mar 20 21:32:45 linux kernel: [   11.460325] type=1400 audit(1395365534.364:3): apparmor="STATUS" operation="profile_load" name="/sbin/klogd" pid=988 comm="apparmor_parser"
+Mar 20 21:32:45 linux kernel: [   11.495814] type=1400 audit(1395365534.400:4): apparmor="STATUS" operation="profile_load" name="/sbin/syslog-ng" pid=992 comm="apparmor_parser"
+Mar 20 21:32:45 linux kernel: [   11.529319] type=1400 audit(1395365534.432:5): apparmor="STATUS" operation="profile_load" name="/sbin/syslogd" pid=996 comm="apparmor_parser"
+Mar 20 21:32:45 linux kernel: [   11.572546] type=1400 audit(1395365534.476:6): apparmor="STATUS" operation="profile_load" name="/usr/lib/PolicyKit/polkit-explicit-grant-helper" pid=1001 comm="apparmor_parser"
+Mar 20 21:32:45 linux kernel: [   11.592290] type=1400 audit(1395365534.496:7): apparmor="STATUS" operation="profile_load" name="/usr/lib/PolicyKit/polkit-grant-helper" pid=1005 comm="apparmor_parser"
+Mar 20 21:32:45 linux kernel: [   11.624523] type=1400 audit(1395365534.528:8): apparmor="STATUS" operation="profile_load" name="/usr/lib/PolicyKit/polkit-grant-helper-pam" pid=1009 comm="apparmor_parser"
+Mar 20 21:32:45 linux kernel: [   11.643857] type=1400 audit(1395365534.548:9): apparmor="STATUS" operation="profile_load" name="/usr/lib/PolicyKit/polkit-read-auth-helper" pid=1013 comm="apparmor_parser"
+Mar 20 21:32:45 linux kernel: [   11.658520] type=1400 audit(1395365534.560:10): apparmor="STATUS" operation="profile_load" name="/usr/lib/PolicyKit/polkit-resolve-exe-helper" pid=1017 comm="apparmor_parser"
+Mar 20 21:32:45 linux kernel: [   11.677853] type=1400 audit(1395365534.580:11): apparmor="STATUS" operation="profile_load" name="/usr/lib/PolicyKit/polkit-revoke-helper" pid=1021 comm="apparmor_parser"
+Mar 20 21:32:45 linux kernel: [   36.024329] bootsplash: status on console 0 changed to on
+Mar 20 21:32:45 linux kernel: [   42.914185] audit_printk_skb: 21 callbacks suppressed
+Mar 20 21:32:45 linux kernel: [   42.914189] type=1400 audit(1395365565.880:19): apparmor="DENIED" operation="capable" parent=1 profile="/sbin/klogd" pid=5517 comm="klogd" capability=34  capname="syslog"
+Mar 20 21:32:50 linux kernel: [   47.268726] YaST2.call (5880): /proc/6378/oom_adj is deprecated, please use /proc/6378/oom_score_adj instead.
+Mar 20 21:33:18 linux kernel: [   74.884003] ADDRCONF(NETDEV_UP): eth0: link is not ready
+Mar 20 21:33:19 linux kernel: [   75.220708] Uniform Multi-Platform E-IDE driver
+Mar 20 21:33:19 linux kernel: [   75.222914] ide-cd driver 5.00
+Mar 20 21:33:19 linux kernel: [   75.238728] st: Version 20101219, fixed bufsize 32768, s/g segs 256
+Mar 20 21:33:46 linux kernel: [  102.810471] NET: Registered protocol family 17
+Mar 20 21:36:46 linux ifup: Service network not started and mode 'auto' -> skipping
+Mar 20 21:36:52 linux su: (to root) root on none
+Mar 20 21:36:56 linux SuSEfirewall2: Setting up rules from /etc/sysconfig/SuSEfirewall2 ...
+Mar 20 21:36:56 linux SuSEfirewall2: using default zone 'ext' for interface eth0
+Mar 20 21:36:56 linux kernel: [  292.257617] ip6_tables: (C) 2000-2006 Netfilter Core Team
+Mar 20 21:36:56 linux kernel: [  292.285590] ip_tables: (C) 2000-2006 Netfilter Core Team
+Mar 20 21:36:56 linux kernel: [  292.288923] nf_conntrack version 0.5.0 (16384 buckets, 65536 max)
+Mar 20 21:36:56 linux SuSEfirewall2: batch committing...
+Mar 20 21:36:56 linux SuSEfirewall2: Firewall rules successfully set
+Mar 20 21:36:57 linux ifdown:     eth0      device: Intel Corporation 82545EM Gigabit Ethernet Co
+Mar 20 21:36:57 linux ifdown:               No configuration found for eth0 
+Mar 20 21:36:57 linux ifdown:               Nevertheless the interface will be shut down.
+Mar 20 21:36:59 linux ifup:     lo        
+Mar 20 21:36:59 linux ifup:     lo        
+Mar 20 21:36:59 linux ifup: IP address: 127.0.0.1/8  
+Mar 20 21:36:59 linux ifup:  
+Mar 20 21:36:59 linux ifup:               
+Mar 20 21:36:59 linux ifup: IP address: 127.0.0.2/8  
+Mar 20 21:36:59 linux ifup:  
+Mar 20 21:36:59 linux ifup:     eth0      device: Intel Corporation 82545EM Gigabit Ethernet Co
+Mar 20 21:36:59 linux ifup:               No configuration found for eth0
+Mar 20 21:36:59 linux SuSEfirewall2: Setting up rules from /etc/sysconfig/SuSEfirewall2 ...
+Mar 20 21:36:59 linux SuSEfirewall2: using default zone 'ext' for interface eth0
+Mar 20 21:36:59 linux SuSEfirewall2: batch committing...
+Mar 20 21:36:59 linux SuSEfirewall2: Firewall rules successfully set
+Mar 20 21:37:00 linux SuSEfirewall2: batch committing...
+Mar 20 21:37:00 linux SuSEfirewall2: Firewall rules unloaded.
+Mar 20 21:37:00 linux SuSEfirewall2: Setting up rules from /etc/sysconfig/SuSEfirewall2 ...
+Mar 20 21:37:00 linux SuSEfirewall2: using default zone 'ext' for interface eth0
+Mar 20 21:37:00 linux SuSEfirewall2: batch committing...
+Mar 20 21:37:00 linux SuSEfirewall2: Firewall rules successfully set
+Mar 20 21:37:00 linux SuSEfirewall2: batch committing...
+Mar 20 21:37:00 linux SuSEfirewall2: Firewall rules unloaded.
+Mar 20 21:37:00 linux SuSEfirewall2: Setting up rules from /etc/sysconfig/SuSEfirewall2 ...
+Mar 20 21:37:00 linux SuSEfirewall2: using default zone 'ext' for interface eth0
+Mar 20 21:37:00 linux SuSEfirewall2: batch committing...
+Mar 20 21:37:00 linux SuSEfirewall2: Firewall rules successfully set
+Mar 20 21:37:09 linux SuSEfirewall2: Setting up rules from /etc/sysconfig/SuSEfirewall2 ...
+Mar 20 21:37:09 linux SuSEfirewall2: using default zone 'ext' for interface eth0
+Mar 20 21:37:09 linux SuSEfirewall2: batch committing...
+Mar 20 21:37:09 linux SuSEfirewall2: Firewall rules successfully set
+Mar 20 21:37:16 linux SuSEfirewall2: batch committing...
+Mar 20 21:37:16 linux SuSEfirewall2: Firewall rules unloaded.
+Mar 20 21:37:16 linux SuSEfirewall2: Setting up rules from /etc/sysconfig/SuSEfirewall2 ...
+Mar 20 21:37:16 linux SuSEfirewall2: using default zone 'ext' for interface eth0
+Mar 20 21:37:16 linux SuSEfirewall2: batch committing...
+Mar 20 21:37:16 linux SuSEfirewall2: Firewall rules successfully set
+Mar 20 21:37:43 linux init: Re-reading inittab
+Mar 20 21:38:21 linux hp[10027]: io/hpmud/pp.c 627: unable to read device-id ret=-1
+Mar 20 21:38:23 linux kernel: [  378.451306] lp0: using parport0 (interrupt-driven).
+Mar 20 21:38:29 linux kernel: [  384.485283] ENS1371 0000:02:02.0: PCI INT A disabled
+Mar 20 21:38:29 linux kernel: [  384.545969] ENS1371 0000:02:02.0: PCI INT A -> GSI 16 (level, low) -> IRQ 16
+Mar 20 21:38:30 linux kernel: [  385.779172] end_request: I/O error, dev fd0, sector 0
+Mar 20 21:38:30 linux kernel: [  385.801143] end_request: I/O error, dev fd0, sector 0
+Mar 20 21:38:30 linux kernel: [  385.881955] BIOS EDD facility v0.16 2004-Jun-25, 1 devices found
+Mar 20 21:38:49 linux ifdown:     eth0      device: Intel Corporation 82545EM Gigabit Ethernet Co
+Mar 20 21:38:49 linux ifdown:               No configuration found for eth0 
+Mar 20 21:38:49 linux ifdown:               Nevertheless the interface will be shut down.
+Mar 20 21:38:51 linux init: Entering runlevel: 5
+Mar 20 21:38:51 linux SuSEfirewall2: batch committing...
+Mar 20 21:38:51 linux SuSEfirewall2: Firewall rules set to CLOSE.
+Mar 20 21:38:51 linux kernel: Kernel logging (proc) stopped.
+Mar 20 21:38:51 linux kernel: Kernel log daemon terminating.
+Mar 20 21:38:51 linux syslog-ng[5514]: Termination requested via signal, terminating;
+Mar 20 21:38:51 linux syslog-ng[5514]: syslog-ng shutting down; version='2.0.9'
+Mar 20 21:38:51 suse87 syslog-ng[10778]: syslog-ng starting up; version='2.0.9'
+Mar 20 21:38:51 suse87 firmware.sh[10806]: Cannot find  firmware file 'intel-ucode/06-3a-09'
+Mar 20 21:38:51 suse87 ifup:     lo        
+Mar 20 21:38:51 suse87 ifup:     lo        
+Mar 20 21:38:51 suse87 ifup: IP address: 127.0.0.1/8  
+Mar 20 21:38:51 suse87 ifup:  
+Mar 20 21:38:51 suse87 ifup:               
+Mar 20 21:38:51 suse87 ifup: IP address: 127.0.0.2/8  
+Mar 20 21:38:51 suse87 ifup:  
+Mar 20 21:38:52 suse87 ifup:     eth0      device: Intel Corporation 82545EM Gigabit Ethernet Co
+Mar 20 21:38:52 suse87 ifup:               No configuration found for eth0
+Mar 20 21:38:52 suse87 auditd[11237]: Started dispatcher: /sbin/audispd pid: 11239
+Mar 20 21:38:52 suse87 audispd: priority_boost_parser called with: 4
+Mar 20 21:38:52 suse87 audispd: af_unix plugin initialized
+Mar 20 21:38:52 suse87 audispd: audispd initialized with q_depth=80 and 1 active plugins
+Mar 20 21:38:52 suse87 auditd[11237]: Init complete, auditd 1.7.7 listening for events (startup state disable)
+Mar 20 21:38:52 suse87 haveged: haveged starting up
+Mar 20 21:38:52 suse87 haveged: arch:        x86 vendor:      intel generic:     0 i_cache:     32 d_cache:     32 loop_idx:    30 loop_idxmax: 40 loop_sz:     31836 loop_szmax:  124334 etime:       9135 havege_ndpt  0
+Mar 20 21:38:52 suse87 sm-notify[11296]: Version 1.2.3 starting
+Mar 20 21:38:53 suse87 mcelog: Unsupported new Family 6 Model 3a CPU: only decoding architectural errors
+Mar 20 21:38:53 suse87 mcelog: mcelog read: No such device
+Mar 20 21:38:53 suse87 sshd[11619]: Server listening on 0.0.0.0 port 22.
+Mar 20 21:38:53 suse87 sshd[11619]: Server listening on :: port 22.
+Mar 20 21:38:54 suse87 logger: /etc/init.d/xdm: No changes for /etc/X11/xdm/Xservers
+Mar 20 21:38:54 suse87 logger: /etc/init.d/xdm: No changes for /etc/X11/xdm/xdm-config
+Mar 20 21:38:54 suse87 /usr/sbin/cron[11802]: (CRON) STARTUP (V5.0)
+Mar 20 21:38:55 suse87 smartd[11815]: smartd 5.39 2008-10-24 22:33 [x86_64-suse-linux-gnu] (openSUSE RPM) Copyright (C) 2002-8 by Bruce Allen, http://smartmontools.sourceforge.net
+Mar 20 21:38:55 suse87 smartd[11815]: Opened configuration file /etc/smartd.conf
+Mar 20 21:38:55 suse87 smartd[11815]: Drive: DEVICESCAN, implied '-a' Directive on line 26 of file /etc/smartd.conf
+Mar 20 21:38:55 suse87 smartd[11815]: Configuration file /etc/smartd.conf was parsed, found DEVICESCAN, scanning devices
+Mar 20 21:38:55 suse87 smartd[11815]: Device: /dev/sda, opened
+Mar 20 21:38:55 suse87 smartd[11815]: Device: /dev/sda, IE (SMART) not enabled, skip device Try 'smartctl -s on /dev/sda' to turn on SMART features
+Mar 20 21:38:55 suse87 smartd[11815]: Unable to monitor any SMART enabled devices. Try debug (-d) option. Exiting...
+Mar 20 21:38:55 suse87 SuSEfirewall2: Setting up rules from /etc/sysconfig/SuSEfirewall2 ...
+Mar 20 21:38:55 suse87 SuSEfirewall2: using default zone 'ext' for interface eth0
+Mar 20 21:38:55 suse87 SuSEfirewall2: batch committing...
+Mar 20 21:38:55 suse87 SuSEfirewall2: Firewall rules successfully set
+Mar 20 21:38:56 suse87 kernel: klogd 1.4.1, log source = /proc/kmsg started.
+Mar 20 21:38:56 suse87 kernel: [  406.858995] microcode: CPU0 sig=0x306a9, pf=0x1, revision=0x16
+Mar 20 21:38:56 suse87 kernel: [  406.876428] microcode: Microcode Update Driver: v2.00 <tigran@aivazian.fsnet.co.uk>, Peter Oruba
+Mar 20 21:39:01 suse87 gdm-simple-greeter[12111]: GLib-GObject-CRITICAL: g_param_spec_flags: assertion `G_TYPE_IS_FLAGS (flags_type)' failed
+Mar 20 21:39:01 suse87 gdm-simple-greeter[12111]: GLib-GObject-CRITICAL: g_object_class_install_property: assertion `G_IS_PARAM_SPEC (pspec)' failed
+Mar 20 21:39:02 suse87 pulseaudio[12118]: alsa-util.c: Disabling timer-based scheduling because running inside a VM.
+Mar 20 21:39:02 suse87 pulseaudio[12118]: alsa-util.c: Disabling timer-based scheduling because running inside a VM.
+Mar 20 21:39:02 suse87 pulseaudio[12118]: alsa-sink.c: ALSA woke us up to write new data to the device, but there was actually nothing to write!
+Mar 20 21:39:02 suse87 pulseaudio[12118]: alsa-sink.c: Most likely this is a bug in the ALSA driver 'snd_ens1371'. Please report this issue to the ALSA developers.
+Mar 20 21:39:02 suse87 pulseaudio[12118]: alsa-sink.c: We were woken up with POLLOUT set -- however a subsequent snd_pcm_avail() returned 0 or another value < min_avail.
+Mar 20 21:39:03 suse87 pulseaudio[12118]: alsa-source.c: ALSA woke us up to read new data from the device, but there was actually nothing to read!
+Mar 20 21:39:03 suse87 pulseaudio[12118]: alsa-source.c: Most likely this is a bug in the ALSA driver 'snd_ens1371'. Please report this issue to the ALSA developers.
+Mar 20 21:39:03 suse87 pulseaudio[12118]: alsa-source.c: We were woken up with POLLIN set -- however a subsequent snd_pcm_avail() returned 0 or another value < min_avail.
+Mar 20 21:39:12 suse87 kernel: [  428.096020] ISO 9660 Extensions: Microsoft Joliet Level 3
+Mar 20 21:39:12 suse87 pulseaudio[12354]: alsa-util.c: Disabling timer-based scheduling because running inside a VM.
+Mar 20 21:39:12 suse87 pulseaudio[12354]: alsa-util.c: Disabling timer-based scheduling because running inside a VM.
+Mar 20 21:39:12 suse87 pulseaudio[12354]: alsa-source.c: ALSA woke us up to read new data from the device, but there was actually nothing to read!
+Mar 20 21:39:12 suse87 pulseaudio[12354]: alsa-source.c: Most likely this is a bug in the ALSA driver 'snd_ens1371'. Please report this issue to the ALSA developers.
+Mar 20 21:39:12 suse87 pulseaudio[12354]: alsa-source.c: We were woken up with POLLIN set -- however a subsequent snd_pcm_avail() returned 0 or another value < min_avail.
+Mar 20 21:39:12 suse87 kernel: [  428.278884] ISO 9660 Extensions: RRIP_1991A
+Mar 20 21:39:12 suse87 hald: mounted /dev/sr0 on behalf of uid 0
+Mar 20 21:39:13 suse87 gnome-keyring-daemon[12288]: adding removable location: volume_label_SLES_11_SP2_DVD_x86_6407551 at /media/SLES-11-SP2-DVD-x86_6407551
+Mar 20 21:40:59 suse87 shutdown[12409]: shutting down for system halt
+Mar 20 21:40:59 suse87 init: Switching to runlevel: 0
+Mar 20 21:41:03 suse87 kernel: [  538.261524] bootsplash: status on console 0 changed to on
+Mar 20 21:41:03 suse87 sshd[11619]: Received signal 15; terminating.
+Mar 20 21:41:03 suse87 gnome-keyring-daemon[12288]: GVFS-RemoteVolumeMonitor: Owner :1.26 of volume monitor org.gtk.Private.HalVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+Mar 20 21:41:03 suse87 gnome-keyring-daemon[12288]: removing removable location: /media/SLES-11-SP2-DVD-x86_6407551
+Mar 20 21:41:03 suse87 gnome-keyring-daemon[12288]: GVFS-RemoteVolumeMonitor: Owner :1.27 of volume monitor org.gtk.Private.GPhoto2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+Mar 20 21:41:03 suse87 bonobo-activation-server (root-12617): could not associate with desktop session: Failed to connect to socket /tmp/dbus-OAWQHwq9AD: Connection refused
+Mar 20 21:41:04 suse87 auditd[11237]: The audit daemon is exiting.
+Mar 20 21:41:04 suse87 haveged: haveged stopping due to signal 15
+Mar 20 21:41:04 suse87 rpcbind: rpcbind terminating on signal. Restart with "rpcbind -w"
+Mar 20 21:41:04 suse87 kernel: Kernel logging (proc) stopped.
+Mar 20 21:41:04 suse87 kernel: Kernel log daemon terminating.
+Mar 20 21:41:04 suse87 syslog-ng[10778]: Termination requested via signal, terminating;
+Mar 20 21:41:04 suse87 syslog-ng[10778]: syslog-ng shutting down; version='2.0.9'
+Feb 23 08:53:41 suse87 syslog-ng[1369]: syslog-ng starting up; version='2.0.9'
+Feb 23 08:53:42 suse87 firmware.sh[1397]: Cannot find  firmware file 'intel-ucode/06-3a-09'
+Feb 23 08:53:42 suse87 rchal: CPU frequency scaling is not supported by your processor.
+Feb 23 08:53:42 suse87 rchal: boot with 'CPUFREQ=no' in to avoid this warning.
+Feb 23 08:53:42 suse87 rchal: Cannot load cpufreq governors - No cpufreq driver available
+Feb 23 08:53:44 suse87 ifup:     lo        
+Feb 23 08:53:44 suse87 ifup:     lo        
+Feb 23 08:53:44 suse87 ifup: IP address: 127.0.0.1/8  
+Feb 23 08:53:44 suse87 ifup:  
+Feb 23 08:53:44 suse87 ifup:               
+Feb 23 08:53:44 suse87 ifup: IP address: 127.0.0.2/8  
+Feb 23 08:53:44 suse87 ifup:  
+Feb 23 08:53:45 suse87 ifup:     eth1      device: Intel Corporation 82545EM Gigabit Ethernet Co
+Feb 23 08:53:45 suse87 ifup:               No configuration found for eth1
+Feb 23 08:53:45 suse87 auditd[1976]: Started dispatcher: /sbin/audispd pid: 1978
+Feb 23 08:53:45 suse87 audispd: priority_boost_parser called with: 4
+Feb 23 08:53:45 suse87 audispd: af_unix plugin initialized
+Feb 23 08:53:45 suse87 audispd: audispd initialized with q_depth=80 and 1 active plugins
+Feb 23 08:53:45 suse87 auditd[1976]: Init complete, auditd 1.7.7 listening for events (startup state disable)
+Feb 23 08:53:45 suse87 haveged: haveged starting up
+Feb 23 08:53:45 suse87 haveged: arch:        x86 vendor:      intel generic:     0 i_cache:     32 d_cache:     32 loop_idx:    30 loop_idxmax: 40 loop_sz:     31836 loop_szmax:  124334 etime:       23583 havege_ndpt  0
+Feb 23 08:53:46 suse87 sm-notify[2035]: Version 1.2.3 starting
+Feb 23 08:53:46 suse87 kernel: klogd 1.4.1, log source = /proc/kmsg started.
+Feb 23 08:53:46 suse87 kernel: [   20.442930] type=1400 audit(1487858016.352:2): apparmor="STATUS" operation="profile_load" name="/bin/ping" pid=1000 comm="apparmor_parser"
+Feb 23 08:53:46 suse87 kernel: [   20.480088] type=1400 audit(1487858016.388:3): apparmor="STATUS" operation="profile_load" name="/sbin/klogd" pid=1005 comm="apparmor_parser"
+Feb 23 08:53:46 suse87 kernel: [   20.559033] type=1400 audit(1487858016.468:4): apparmor="STATUS" operation="profile_load" name="/sbin/syslog-ng" pid=1009 comm="apparmor_parser"
+Feb 23 08:53:46 suse87 kernel: [   20.642024] type=1400 audit(1487858016.548:5): apparmor="STATUS" operation="profile_load" name="/sbin/syslogd" pid=1013 comm="apparmor_parser"
+Feb 23 08:53:46 suse87 kernel: [   20.708287] type=1400 audit(1487858016.616:6): apparmor="STATUS" operation="profile_load" name="/usr/lib/PolicyKit/polkit-explicit-grant-helper" pid=1018 comm="apparmor_parser"
+Feb 23 08:53:46 suse87 kernel: [   20.743046] type=1400 audit(1487858016.652:7): apparmor="STATUS" operation="profile_load" name="/usr/lib/PolicyKit/polkit-grant-helper" pid=1022 comm="apparmor_parser"
+Feb 23 08:53:46 suse87 kernel: [   20.827900] type=1400 audit(1487858016.736:8): apparmor="STATUS" operation="profile_load" name="/usr/lib/PolicyKit/polkit-grant-helper-pam" pid=1026 comm="apparmor_parser"
+Feb 23 08:53:46 suse87 kernel: [   20.885590] type=1400 audit(1487858016.796:9): apparmor="STATUS" operation="profile_load" name="/usr/lib/PolicyKit/polkit-read-auth-helper" pid=1030 comm="apparmor_parser"
+Feb 23 08:53:46 suse87 kernel: [   20.921301] type=1400 audit(1487858016.828:10): apparmor="STATUS" operation="profile_load" name="/usr/lib/PolicyKit/polkit-resolve-exe-helper" pid=1034 comm="apparmor_parser"
+Feb 23 08:53:46 suse87 kernel: [   20.958804] type=1400 audit(1487858016.868:11): apparmor="STATUS" operation="profile_load" name="/usr/lib/PolicyKit/polkit-revoke-helper" pid=1038 comm="apparmor_parser"
+Feb 23 08:53:46 suse87 kernel: [   24.964144] ip6_tables: (C) 2000-2006 Netfilter Core Team
+Feb 23 08:53:46 suse87 kernel: [   25.069148] ip_tables: (C) 2000-2006 Netfilter Core Team
+Feb 23 08:53:46 suse87 kernel: [   25.084174] nf_conntrack version 0.5.0 (16384 buckets, 65536 max)
+Feb 23 08:53:46 suse87 kernel: [   26.206357] microcode: CPU0 sig=0x306a9, pf=0x1, revision=0x1c
+Feb 23 08:53:46 suse87 kernel: [   26.340637] microcode: Microcode Update Driver: v2.00 <tigran@aivazian.fsnet.co.uk>, Peter Oruba
+Feb 23 08:53:46 suse87 kernel: [   29.453031] auditd (1976): /proc/1976/oom_adj is deprecated, please use /proc/1976/oom_score_adj instead.
+Feb 23 08:53:47 suse87 kernel: [   31.569411] BIOS EDD facility v0.16 2004-Jun-25, 1 devices found
+Feb 23 08:53:48 suse87 mcelog: Unsupported new Family 6 Model 3a CPU: only decoding architectural errors
+Feb 23 08:53:48 suse87 mcelog: mcelog read: No such device
+Feb 23 08:53:49 suse87 sshd[2373]: Server listening on 0.0.0.0 port 22.
+Feb 23 08:53:49 suse87 sshd[2373]: Server listening on :: port 22.
+Feb 23 08:53:51 suse87 logger: /etc/init.d/xdm: No changes for /etc/X11/xdm/Xservers
+Feb 23 08:53:51 suse87 logger: /etc/init.d/xdm: No changes for /etc/X11/xdm/xdm-config
+Feb 23 08:53:51 suse87 /usr/sbin/cron[2553]: (CRON) STARTUP (V5.0)
+Feb 23 08:53:52 suse87 smartd[2568]: smartd 5.39 2008-10-24 22:33 [x86_64-suse-linux-gnu] (openSUSE RPM) Copyright (C) 2002-8 by Bruce Allen, http://smartmontools.sourceforge.net
+Feb 23 08:53:52 suse87 smartd[2568]: Opened configuration file /etc/smartd.conf
+Feb 23 08:53:52 suse87 smartd[2568]: Drive: DEVICESCAN, implied '-a' Directive on line 26 of file /etc/smartd.conf
+Feb 23 08:53:52 suse87 smartd[2568]: Configuration file /etc/smartd.conf was parsed, found DEVICESCAN, scanning devices
+Feb 23 08:53:52 suse87 smartd[2568]: Device: /dev/sda, opened
+Feb 23 08:53:52 suse87 smartd[2568]: Device: /dev/sda, IE (SMART) not enabled, skip device Try 'smartctl -s on /dev/sda' to turn on SMART features
+Feb 23 08:53:52 suse87 smartd[2568]: Unable to monitor any SMART enabled devices. Try debug (-d) option. Exiting...
+Feb 23 08:53:52 suse87 SuSEfirewall2: Setting up rules from /etc/sysconfig/SuSEfirewall2 ...
+Feb 23 08:53:52 suse87 SuSEfirewall2: using default zone 'ext' for interface eth1
+Feb 23 08:53:52 suse87 SuSEfirewall2: batch committing...
+Feb 23 08:53:53 suse87 SuSEfirewall2: Firewall rules successfully set
+Feb 23 08:53:53 suse87 kernel: [   37.867183] bootsplash: status on console 0 changed to on
+Feb 23 08:54:10 suse87 gdm-simple-greeter[2872]: GLib-GObject-CRITICAL: g_param_spec_flags: assertion `G_TYPE_IS_FLAGS (flags_type)' failed
+Feb 23 08:54:10 suse87 gdm-simple-greeter[2872]: GLib-GObject-CRITICAL: g_object_class_install_property: assertion `G_IS_PARAM_SPEC (pspec)' failed
+Feb 23 08:54:11 suse87 pulseaudio[2878]: alsa-util.c: Disabling timer-based scheduling because running inside a VM.
+Feb 23 08:54:11 suse87 pulseaudio[2878]: alsa-util.c: Disabling timer-based scheduling because running inside a VM.
+Feb 23 08:54:11 suse87 pulseaudio[2878]: alsa-source.c: ALSA woke us up to read new data from the device, but there was actually nothing to read!
+Feb 23 08:54:11 suse87 pulseaudio[2878]: alsa-source.c: Most likely this is a bug in the ALSA driver 'snd_ens1371'. Please report this issue to the ALSA developers.
+Feb 23 08:54:11 suse87 pulseaudio[2878]: alsa-source.c: We were woken up with POLLIN set -- however a subsequent snd_pcm_avail() returned 0 or another value < min_avail.
+Feb 23 08:55:48 suse87 gdm-session-worker[2876]: WARNING: gdm_session_settings_load: lang = (null)
+Feb 23 08:55:52 suse87 checkproc: checkproc: can not get session id for process 12265!
+Feb 23 08:55:56 suse87 pulseaudio[3104]: pid.c: Stale PID file, overwriting.
+Feb 23 08:55:57 suse87 pulseaudio[3104]: alsa-util.c: Disabling timer-based scheduling because running inside a VM.
+Feb 23 08:55:57 suse87 pulseaudio[3104]: alsa-util.c: Disabling timer-based scheduling because running inside a VM.
+Feb 23 08:55:57 suse87 pulseaudio[3104]: alsa-source.c: ALSA woke us up to read new data from the device, but there was actually nothing to read!
+Feb 23 08:55:57 suse87 pulseaudio[3104]: alsa-source.c: Most likely this is a bug in the ALSA driver 'snd_ens1371'. Please report this issue to the ALSA developers.
+Feb 23 08:55:57 suse87 pulseaudio[3104]: alsa-source.c: We were woken up with POLLIN set -- however a subsequent snd_pcm_avail() returned 0 or another value < min_avail.
+Feb 23 08:55:57 suse87 pulseaudio[3104]: alsa-sink.c: ALSA woke us up to write new data to the device, but there was actually nothing to write!
+Feb 23 08:55:57 suse87 pulseaudio[3104]: alsa-sink.c: Most likely this is a bug in the ALSA driver 'snd_ens1371'. Please report this issue to the ALSA developers.
+Feb 23 08:55:57 suse87 pulseaudio[3104]: alsa-sink.c: We were woken up with POLLOUT set -- however a subsequent snd_pcm_avail() returned 0 or another value < min_avail.
+Feb 23 08:57:35 suse87 kernel: [  259.122765] e1000: eth1 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: None
+Feb 23 08:57:45 suse87 kernel: [  269.250427] eth1: no IPv6 routers present
+Feb 23 08:57:51 suse87 ifup:     eth1      device: Intel Corporation 82545EM Gigabit Ethernet Controller (Copper) (rev 01)
+Feb 23 08:57:51 suse87 ifup:               No configuration found for eth1
+Feb 23 08:58:00 suse87 SuSEfirewall2: batch committing...
+Feb 23 08:58:00 suse87 SuSEfirewall2: Firewall rules unloaded.
+Feb 23 08:58:02 suse87 ifprobe:     eth1      config file created: --> restart interface!
+Feb 23 08:58:02 suse87 ifdown:     eth1      device: Intel Corporation 82545EM Gigabit Ethernet Co
+Feb 23 08:58:03 suse87 dhcpcd[4580]: eth1: dhcpcd not running
+Feb 23 08:58:03 suse87 dhcpcd[4580]: eth1: exiting
+Feb 23 08:58:03 suse87 SuSEfirewall2: SuSEfirewall2 not active
+Feb 23 08:58:04 suse87 ifup:     eth1      device: Intel Corporation 82545EM Gigabit Ethernet Co
+Feb 23 08:58:04 suse87 kernel: [  288.199806] e1000: eth1 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: None
+Feb 23 08:58:04 suse87 ifup-dhcp:     eth1      Starting DHCP4 client
+Feb 23 08:58:04 suse87 dhcpcd[5007]: eth1: dhcpcd 3.2.3 starting
+Feb 23 08:58:04 suse87 dhcpcd[5007]: eth1: hardware address = 00:0c:29:f5:45:26
+Feb 23 08:58:04 suse87 kernel: [  288.279529] NET: Registered protocol family 17
+Feb 23 08:58:04 suse87 dhcpcd[5007]: eth1: broadcasting for a lease
+Feb 23 08:58:04 suse87 ifup-dhcp: . 
+Feb 23 08:58:05 suse87 dhcpcd[5007]: eth1: offered 192.168.0.104 from 192.168.0.1
+Feb 23 08:58:05 suse87 kernel: [  288.871778] martian source 255.255.255.255 from 192.168.0.1, on dev eth1
+Feb 23 08:58:05 suse87 kernel: [  288.871782] ll header: ff:ff:ff:ff:ff:ff:50:bd:5f:8a:8a:24:08:00
+Feb 23 08:58:05 suse87 dhcpcd[5007]: eth1: checking 192.168.0.104 is available on attached networks
+Feb 23 08:58:05 suse87 kernel: [  288.974218] martian source 255.255.255.255 from 192.168.0.1, on dev eth1
+Feb 23 08:58:05 suse87 kernel: [  288.974222] ll header: ff:ff:ff:ff:ff:ff:50:bd:5f:8a:8a:24:08:00
+Feb 23 08:58:06 suse87 dhcpcd[5007]: eth1: leased 192.168.0.104 for 7200 seconds
+Feb 23 08:58:06 suse87 dhcpcd[5007]: eth1: no renewal time supplied, assuming 3600 seconds
+Feb 23 08:58:06 suse87 dhcpcd[5007]: eth1: no rebind time supplied, assuming 6300 seconds
+Feb 23 08:58:06 suse87 dhcpcd[5007]: eth1: adding IP address 192.168.0.104/24
+Feb 23 08:58:06 suse87 dhcpcd[5007]: eth1: adding default route via 192.168.0.1 metric 0
+Feb 23 08:58:06 suse87 ifdown:     eth1      device: Intel Corporation 82545EM Gigabit Ethernet Controller (Copper) (rev 01)
+Feb 23 08:58:06 suse87 dhcpcd[5007]: eth1: Failed to lookup hostname via DNS: Name or service not known
+Feb 23 08:58:07 suse87 ifup:     eth1      device: Intel Corporation 82545EM Gigabit Ethernet Controller (Copper) (rev 01)
+Feb 23 08:58:07 suse87 ifup-dhcp: . 
+Feb 23 08:58:07 suse87 SuSEfirewall2: SuSEfirewall2 not active
+Feb 23 08:58:07 suse87 dhcpcd[5007]: eth1: exiting
+Feb 23 08:58:07 suse87 ifup-dhcp:  
+Feb 23 08:58:07 suse87 ifup-dhcp:     eth1      IP address: 192.168.0.104/24
+Feb 23 08:58:07 suse87 SuSEfirewall2: SuSEfirewall2 not active
+Feb 23 08:58:15 suse87 kernel: [  298.814547] eth1: no IPv6 routers present
+Feb 23 08:58:55 suse87 sshd[5623]: Accepted keyboard-interactive/pam for root from 192.168.0.106 port 60954 ssh2
+Feb 23 09:02:56 suse87 sshd[23688]: Accepted keyboard-interactive/pam for root from 192.168.0.103 port 49283 ssh2
+Feb 23 09:04:35 suse87 sshd[23688]: subsystem request for sftp
+Feb 23 09:11:49 suse87 crontab[23773]: (root) BEGIN EDIT (root)
+Feb 23 09:13:41 suse87 crontab[23773]: (root) REPLACE (root)
+Feb 23 09:13:41 suse87 crontab[23773]: (root) END EDIT (root)
+Feb 23 09:13:46 suse87 crontab[23775]: (root) LIST (root)
+Feb 23 09:14:01 suse87 /usr/sbin/cron[23782]: (root) CMD (/root/test.sh)
+Feb 23 09:16:01 suse87 /usr/sbin/cron[23816]: (root) CMD (/root/test.sh)
+Feb 23 09:18:01 suse87 /usr/sbin/cron[23828]: (root) CMD (/root/test.sh)
+Feb 23 09:20:01 suse87 /usr/sbin/cron[23867]: (root) CMD (/root/test.sh)
+Feb 23 09:22:01 suse87 /usr/sbin/cron[23888]: (root) CMD (/root/test.sh)
+Feb 23 09:24:01 suse87 /usr/sbin/cron[23910]: (root) CMD (/root/test.sh)
+Feb 23 09:26:01 suse87 /usr/sbin/cron[23922]: (root) CMD (/root/test.sh)
+Feb 23 09:28:01 suse87 /usr/sbin/cron[23939]: (root) CMD (/root/test.sh)
+Feb 23 09:30:01 suse87 /usr/sbin/cron[23970]: (root) CMD (/root/test.sh)
+Feb 23 09:32:01 suse87 /usr/sbin/cron[23999]: (root) CMD (/root/test.sh)
+Feb 23 09:34:01 suse87 /usr/sbin/cron[24002]: (root) CMD (/root/test.sh)
+Feb 23 09:34:07 suse87 kernel: Kernel logging (proc) stopped.
+Feb 23 09:34:07 suse87 kernel: Kernel log daemon terminating.
+Feb 23 09:34:07 suse87 syslog-ng[1369]: Termination requested via signal, terminating;
+Feb 23 09:34:07 suse87 syslog-ng[1369]: syslog-ng shutting down; version='2.0.9'
+Feb 23 09:34:07 suse87 syslog-ng[24034]: syslog-ng starting up; version='2.0.9'
+Feb 23 09:34:12 suse87 kernel: klogd 1.4.1, log source = /proc/kmsg started.
+Feb 23 09:36:01 suse87 /usr/sbin/cron[24049]: (root) CMD (/root/test.sh)
+Feb 23 09:38:01 suse87 /usr/sbin/cron[24054]: (root) CMD (/root/test.sh)
+Feb 23 09:40:01 suse87 /usr/sbin/cron[24056]: (root) CMD (/root/test.sh)
+Feb 23 09:42:01 suse87 /usr/sbin/cron[24059]: (root) CMD (/root/test.sh)
+Feb 23 09:44:01 suse87 /usr/sbin/cron[24061]: (root) CMD (/root/test.sh)
+Feb 23 09:46:01 suse87 /usr/sbin/cron[24085]: (root) CMD (/root/test.sh)
+Feb 23 09:48:01 suse87 /usr/sbin/cron[24087]: (root) CMD (/root/test.sh)
+Feb 23 09:50:01 suse87 /usr/sbin/cron[24092]: (root) CMD (/root/test.sh)
+Feb 23 09:52:01 suse87 /usr/sbin/cron[24108]: (root) CMD (/root/test.sh)
+Feb 23 09:54:01 suse87 /usr/sbin/cron[24123]: (root) CMD (/root/test.sh)
+Feb 23 09:56:01 suse87 /usr/sbin/cron[24126]: (root) CMD (/root/test.sh)
+Feb 23 09:58:01 suse87 /usr/sbin/cron[24128]: (root) CMD (/root/test.sh)
+Feb 23 09:58:07 suse87 dhcpcd[5524]: eth1: renewing lease of 192.168.0.104
+Feb 23 10:00:01 suse87 /usr/sbin/cron[24131]: (root) CMD (/root/test.sh)
+Feb 23 10:02:01 suse87 /usr/sbin/cron[24154]: (root) CMD (/root/test.sh)
+Feb 23 10:04:01 suse87 /usr/sbin/cron[24163]: (root) CMD (/root/test.sh)
+Feb 23 10:04:32 suse87 kernel: [ 4268.786052] hrtimer: interrupt took 17135319 ns
+Feb 23 10:06:01 suse87 /usr/sbin/cron[24166]: (root) CMD (/root/test.sh)

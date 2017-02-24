@@ -1,0 +1,5 @@
+Feb 24 11:03:03 hadoopsrv1 syslog-ng[9834]: syslog-ng starting up; version='2.0.9'
+Feb 24 11:03:08 hadoopsrv1 kernel: klogd 1.4.1, log source = /proc/kmsg started.
+Feb 24 11:04:00 hadoopsrv1 sshd[9844]: Accepted keyboard-interactive/pam for root from 10.10.9.1 port 58303 ssh2
+Feb 24 11:04:00 hadoopsrv1 sshd[9844]: subsystem request for sftp
+Feb 24 11:04:11 hadoopsrv1 sshd[9844]: subsystem request for sftp

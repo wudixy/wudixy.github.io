@@ -1,0 +1,23 @@
+1395365564.501 type=SEAT_ADDED : seat-id='Seat1' seat-kind=0
+1395365937.363 type=SEAT_SESSION_ADDED : seat-id='Seat1' session-id='Session1' session-type='LoginWindow' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=107 session-creation-time='2014-03-21T01:38:57.330373Z'
+1395365937.366 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id='Session1'
+1395365949.302 type=SEAT_SESSION_REMOVED : seat-id='Seat1' session-id='Session1' session-type='LoginWindow' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=107 session-creation-time='2014-03-21T01:38:57.330373Z'
+1395365949.308 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id=''
+1395365949.330 type=SEAT_SESSION_ADDED : seat-id='Seat1' session-id='Session2' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=0 session-creation-time='2014-03-21T01:39:09.318544Z'
+1395365949.333 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id='Session2'
+1395366063.058 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id=''
+1395366063.625 type=SEAT_SESSION_REMOVED : seat-id='Seat1' session-id='Session2' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=0 session-creation-time='2014-03-21T01:39:09.318544Z'
+1487858022.996 type=SEAT_ADDED : seat-id='Seat1' seat-kind=0
+1487858043.608 type=SEAT_SESSION_ADDED : seat-id='Seat1' session-id='Session1' session-type='LoginWindow' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=107 session-creation-time='2017-02-23T13:54:03.547447Z'
+1487858043.614 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id='Session1'
+1487858151.465 type=SEAT_SESSION_REMOVED : seat-id='Seat1' session-id='Session1' session-type='LoginWindow' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=107 session-creation-time='2017-02-23T13:54:03.547447Z'
+1487858151.473 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id=''
+1487858151.507 type=SEAT_SESSION_ADDED : seat-id='Seat1' session-id='Session2' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=0 session-creation-time='2017-02-23T13:55:51.496996Z'
+1487858151.512 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id='Session2'
+1487930530.692 type=SEAT_ADDED : seat-id='Seat1' seat-kind=0
+1487930552.947 type=SEAT_SESSION_ADDED : seat-id='Seat1' session-id='Session1' session-type='LoginWindow' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=107 session-creation-time='2017-02-24T10:02:32.894467Z'
+1487930552.953 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id='Session1'
+1487930567.565 type=SEAT_SESSION_REMOVED : seat-id='Seat1' session-id='Session1' session-type='LoginWindow' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=107 session-creation-time='2017-02-24T10:02:32.894467Z'
+1487930567.578 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id=''
+1487930572.610 type=SEAT_SESSION_ADDED : seat-id='Seat1' session-id='Session2' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty7' session-display-device='' session-remote-host-name='' session-is-local=TRUE session-unix-user=0 session-creation-time='2017-02-24T10:02:52.605422Z'
+1487930572.615 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id='Session2'
