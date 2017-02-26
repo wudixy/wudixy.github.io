@@ -1,0 +1,35 @@
+Examples of 4771
+-----------------------------
+Kerberos pre-authentication failed.
+
+Account Information:
+
+   Security ID:  ACME\administrator
+   Account Name:  Administrator
+
+Service Information:
+
+   Service Name:  krbtgt/acme
+
+Network Information:
+
+   Client Address:  ::ffff:10.42.42.224
+   Client Port:  50950
+
+Additional Information:
+
+   Ticket Options:  0x40810010
+   Failure Code:  0x18
+   Pre-Authentication Type: 2
+
+Certificate Information:
+
+   Certificate Issuer Name:  
+   Certificate Serial Number:  
+   Certificate Thumbprint: 
+
+Certificate information is only provided if a certificate was used for pre-authentication.
+
+Pre-authentication types, ticket options and failure codes are defined in RFC 4120.
+
+If the ticket was malformed or damaged during transit and could not be decrypted, then many fields in this event might not be present.

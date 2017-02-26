@@ -1,0 +1,108 @@
+Examples of 4656
+-----------------------------
+Win2008 examples
+
+File example:
+
+A handle to an object was requested.
+
+Subject:
+   Security ID:  WIN-R9H529RIO4Y\Administrator
+   Account Name:  Administrator
+   Account Domain:  WIN-R9H529RIO4Y
+   Logon ID:  0x1fd23
+Object:
+   Object Server:  Security
+   Object Type:  File
+   Object Name:  C:\Users\Administrator\testfolder\New Text Document.txt
+   Handle ID:  0xb8
+Process Information:
+   Process ID:  0xed0
+   Process Name:  C:\Windows\System32\notepad.exe
+Access Request Information:
+   Transaction ID:  {00000000-0000-0000-0000-000000000000}
+   Accesses:  READ_CONTROL
+     SYNCHRONIZE
+     ReadData (or ListDirectory)
+     ReadEA
+     ReadAttributes   Access Mask:  0x120089
+   Privileges Used for Access Check: -
+   Restricted SID Count: 0
+
+Registry Key Example:
+
+A handle to an object was requested.
+
+Subject:
+   Security ID:  ACME\administrator
+   Account Name:  administrator
+   Account Domain:  ACME
+   Logon ID:  0x176293
+Object:
+   Object Server:  Security
+   Object Type:  Key
+   Object Name:  \REGISTRY\MACHINE\SOFTWARE\MTG
+   Handle ID:  0x124
+Process Information:
+   Process ID:  0x8d4
+   Process Name:  C:\Windows\regedit.exe
+Access Request Information:
+   Transaction ID:  {00000000-0000-0000-0000-000000000000}
+   Accesses:  DELETE
+     READ_CONTROL
+     WRITE_DAC
+     WRITE_OWNER
+     Query key value
+     Set key value
+     Create sub-key
+     Enumerate sub-keys
+     Notify about changes to keys
+     Create Link   
+   Access Mask:  0xf003f
+   Privileges Used for Access Check: -
+   Restricted SID Count: 0
+
+Win2012 example
+
+A handle to an object was requested.
+
+Subject:
+  Security ID: LB\administrator
+  Account Name: administrator
+  Account Domain: LB
+  Logon ID: 0x3DE02
+
+Object:
+  Object Server: Security
+  Object Type: File
+  Object Name: C:\asdf\New Text Document.txt
+  Handle ID: 0x178
+  Resource Attributes: S:AI(RA;ID;;;;WD;("Project_MS",TS,0x10020,"Transmogrifier"))
+
+  Process ID: 0x113c
+  Process Name: C:\Windows\System32\notepad.exe
+
+Access Request Information:
+  Transaction ID: {00000000-0000-0000-0000-000000000000}
+  Accesses: READ_CONTROL 
+    SYNCHRONIZE
+    ReadData (or ListDirectory)
+    WriteData (or AddFile)
+    AppendData (or AddSubdirectory or CreatePipeInstance)
+    ReadEA
+    WriteEA
+    ReadAttributes
+    WriteAttributes
+  Access Reasons: 
+    READ_CONTROL: Granted by Ownership
+    SYNCHRONIZE: Granted by D:(A;ID;FA;;;BA)
+    ReadData (or ListDirectory): Granted by D:(A;ID;FA;;;BA)
+    WriteData (or AddFile): Granted by D:(A;ID;FA;;;BA)
+    AppendData (or AddSubdirectory or CreatePipeInstance): Granted by D:    (A;ID;FA;;;BA)
+    ReadEA: Granted by D:(A;ID;FA;;;BA)
+    WriteEA: Granted by D:(A;ID;FA;;;BA)
+    ReadAttributes: Granted by D:(A;ID;FA;;;BA)
+    WriteAttributes: Granted by D:(A;ID;FA;;;BA)
+  Access Mask: 0x12019F
+  Privileges Used for Access Check: -
+  Restricted SID Count: 0

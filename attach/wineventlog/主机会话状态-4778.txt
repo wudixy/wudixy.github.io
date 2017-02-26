@@ -1,0 +1,20 @@
+Examples of 4778
+----------------------------
+A session was reconnected to a Window Station.
+
+Subject:
+
+   Account Name:  Administrator
+   Account Domain:  WIN-R9H529RIO4Y
+   Logon ID:  0x169e9
+
+Session:
+
+   Session Name:  RDP-Tcp#0
+
+Additional Information:
+
+   Client Name:  XPEDIT
+   Client Address:  10.42.42.211
+
+This event is generated when a user reconnects to an existing Terminal Services session, or when a user switches to an existing desktop using Fast User Switching.

@@ -1,0 +1,211 @@
+Aug 30 17:39:54 linux postfix/postfix-script[5399]: fatal: the Postfix mail system is not running
+Aug 30 17:46:59 hadoopsrv1 postfix/postfix-script[15473]: starting the Postfix mail system
+Aug 30 17:46:59 hadoopsrv1 postfix/master[15474]: daemon started -- version 2.5.13, configuration /etc/postfix
+Aug 30 18:05:54 hadoopsrv1 postfix/master[15474]: terminating on signal 15
+Aug 30 18:06:59 hadoopsrv1 postfix/postfix-script[5174]: starting the Postfix mail system
+Aug 30 18:06:59 hadoopsrv1 postfix/master[5175]: daemon started -- version 2.5.13, configuration /etc/postfix
+Aug 30 18:15:17 hadoopsrv1 postfix/master[5175]: terminating on signal 15
+Aug 30 22:06:12 hadoopsrv1 postfix/postfix-script[5167]: starting the Postfix mail system
+Aug 30 22:06:12 hadoopsrv1 postfix/master[5168]: daemon started -- version 2.5.13, configuration /etc/postfix
+Aug 31 01:55:21 hadoopsrv1 postfix/master[5168]: terminating on signal 15
+Aug 31 16:27:30 hadoopsrv1 postfix/postfix-script[5085]: starting the Postfix mail system
+Aug 31 16:27:31 hadoopsrv1 postfix/master[5086]: daemon started -- version 2.5.13, configuration /etc/postfix
+Sep  1 00:30:40 hadoopsrv1 postfix/master[5086]: terminating on signal 15
+Sep  3 17:30:39 hadoopsrv1 postfix/postfix-script[5176]: starting the Postfix mail system
+Sep  3 17:30:39 hadoopsrv1 postfix/master[5177]: daemon started -- version 2.5.13, configuration /etc/postfix
+Sep  4 01:21:52 hadoopsrv1 postfix/master[5177]: terminating on signal 15
+Sep  6 17:40:40 hadoopsrv1 postfix/postfix-script[5059]: starting the Postfix mail system
+Sep  6 17:40:40 hadoopsrv1 postfix/master[5060]: daemon started -- version 2.5.13, configuration /etc/postfix
+Sep  7 00:33:13 hadoopsrv1 postfix/master[5060]: terminating on signal 15
+Oct 29 02:38:31 hadoopsrv1 postfix/postfix-script[5106]: starting the Postfix mail system
+Oct 29 02:38:31 hadoopsrv1 postfix/master[5107]: daemon started -- version 2.5.13, configuration /etc/postfix
+Oct 29 03:00:00 hadoopsrv1 postfix/master[5107]: terminating on signal 15
+Oct 29 04:03:47 hadoopsrv1 postfix/postfix-script[5122]: starting the Postfix mail system
+Oct 29 04:03:47 hadoopsrv1 postfix/master[5123]: daemon started -- version 2.5.13, configuration /etc/postfix
+Oct 29 04:49:03 hadoopsrv1 postfix/master[5123]: terminating on signal 15
+Oct 29 22:05:37 hadoopsrv1 postfix/postfix-script[5032]: starting the Postfix mail system
+Oct 29 22:05:37 hadoopsrv1 postfix/master[5033]: daemon started -- version 2.5.13, configuration /etc/postfix
+Oct 29 23:59:09 hadoopsrv1 postfix/master[5033]: terminating on signal 15
+Nov 29 19:05:27 hadoopsrv1 postfix/postfix-script[5277]: starting the Postfix mail system
+Nov 29 19:05:27 hadoopsrv1 postfix/master[5278]: daemon started -- version 2.5.13, configuration /etc/postfix
+Nov 29 19:20:13 hadoopsrv1 postfix/master[5278]: terminating on signal 15
+Nov 29 19:20:27 hadoopsrv1 sendmail[9502]: My unqualified host name (hadoopsrv1) unknown; sleeping for retry
+Nov 29 19:21:37 hadoopsrv1 sendmail[9502]: unable to qualify my own domain name (hadoopsrv1) -- using short name
+Nov 29 19:21:37 hadoopsrv1 sendmail[9502]: gethostbyaddr(127.0.0.2) failed: 1
+Nov 29 19:21:37 hadoopsrv1 sendmail[9502]: alias database /etc/aliases rebuilt by root
+Nov 29 19:21:37 hadoopsrv1 sendmail[9502]: /etc/aliases: 40 aliases, longest 10 bytes, 465 bytes total
+Nov 29 19:24:43 hadoopsrv1 sendmail[9666]: My unqualified host name (hadoopsrv1) unknown; sleeping for retry
+Nov 29 19:25:32 hadoopsrv1 sendmail[11679]: My unqualified host name (hadoopsrv1) unknown; sleeping for retry
+Nov 29 19:25:43 hadoopsrv1 sendmail[9666]: unable to qualify my own domain name (hadoopsrv1) -- using short name
+Nov 29 19:25:43 hadoopsrv1 sendmail[9666]: gethostbyaddr(127.0.0.2) failed: 1
+Nov 29 19:25:43 hadoopsrv1 sendmail[12345]: starting daemon (8.14.3): SMTP+queueing@00:30:00
+Nov 29 19:25:43 hadoopsrv1 sendmail-client[12350]: My unqualified host name (hadoopsrv1) unknown; sleeping for retry
+Nov 29 19:26:32 hadoopsrv1 sendmail[11679]: unable to qualify my own domain name (hadoopsrv1) -- using short name
+Nov 29 19:26:32 hadoopsrv1 sendmail[11679]: gethostbyaddr(127.0.0.2) failed: 1
+Nov 29 19:26:32 hadoopsrv1 sendmail[12407]: starting daemon (8.14.3): SMTP+queueing@00:30:00
+Nov 29 19:26:32 hadoopsrv1 sendmail[12407]: NOQUEUE: SYSERR(root): opendaemonsocket: daemon MTA: cannot bind: Address already in use
+Nov 29 19:26:32 hadoopsrv1 sendmail[12407]: daemon MTA: problem creating SMTP socket
+Nov 29 19:26:37 hadoopsrv1 sendmail[12407]: NOQUEUE: SYSERR(root): opendaemonsocket: daemon MTA: cannot bind: Address already in use
+Nov 29 19:26:37 hadoopsrv1 sendmail[12407]: daemon MTA: problem creating SMTP socket
+Nov 29 19:26:42 hadoopsrv1 sendmail[12407]: NOQUEUE: SYSERR(root): opendaemonsocket: daemon MTA: cannot bind: Address already in use
+Nov 29 19:26:42 hadoopsrv1 sendmail[12407]: daemon MTA: problem creating SMTP socket
+Nov 29 19:26:43 hadoopsrv1 sendmail-client[12350]: unable to qualify my own domain name (hadoopsrv1) -- using short name
+Nov 29 19:26:43 hadoopsrv1 sendmail-client[12409]: starting daemon (8.14.3): persistent-queueing@00:01:00
+Nov 29 19:26:47 hadoopsrv1 sendmail[12407]: NOQUEUE: SYSERR(root): opendaemonsocket: daemon MTA: cannot bind: Address already in use
+Nov 29 19:26:47 hadoopsrv1 sendmail[12407]: daemon MTA: problem creating SMTP socket
+Nov 29 19:26:52 hadoopsrv1 sendmail[12407]: NOQUEUE: SYSERR(root): opendaemonsocket: daemon MTA: cannot bind: Address already in use
+Nov 29 19:26:52 hadoopsrv1 sendmail[12407]: daemon MTA: problem creating SMTP socket
+Nov 29 19:26:57 hadoopsrv1 sendmail[12407]: NOQUEUE: SYSERR(root): opendaemonsocket: daemon MTA: cannot bind: Address already in use
+Nov 29 19:26:57 hadoopsrv1 sendmail[12407]: daemon MTA: problem creating SMTP socket
+Nov 29 19:27:02 hadoopsrv1 sendmail[12407]: NOQUEUE: SYSERR(root): opendaemonsocket: daemon MTA: cannot bind: Address already in use
+Nov 29 19:27:02 hadoopsrv1 sendmail[12407]: daemon MTA: problem creating SMTP socket
+Nov 29 19:27:07 hadoopsrv1 sendmail[12407]: NOQUEUE: SYSERR(root): opendaemonsocket: daemon MTA: cannot bind: Address already in use
+Nov 29 19:27:07 hadoopsrv1 sendmail[12407]: daemon MTA: problem creating SMTP socket
+Nov 29 19:27:12 hadoopsrv1 sendmail[12407]: NOQUEUE: SYSERR(root): opendaemonsocket: daemon MTA: cannot bind: Address already in use
+Nov 29 19:27:12 hadoopsrv1 sendmail[12407]: daemon MTA: problem creating SMTP socket
+Nov 29 19:27:17 hadoopsrv1 sendmail[12407]: NOQUEUE: SYSERR(root): opendaemonsocket: daemon MTA: cannot bind: Address already in use
+Nov 29 19:27:17 hadoopsrv1 sendmail[12407]: daemon MTA: problem creating SMTP socket
+Nov 29 19:27:22 hadoopsrv1 sendmail[12407]: NOQUEUE: SYSERR(root): opendaemonsocket: daemon MTA: cannot bind: Address already in use
+Nov 29 19:27:22 hadoopsrv1 sendmail[12407]: daemon MTA: problem creating SMTP socket
+Nov 29 19:27:22 hadoopsrv1 sendmail[12407]: NOQUEUE: SYSERR(root): opendaemonsocket: daemon MTA: server SMTP socket wedged: exiting
+Nov 29 19:30:02 hadoopsrv1 sendmail[12427]: My unqualified host name (hadoopsrv1) unknown; sleeping for retry
+Nov 29 19:30:31 hadoopsrv1 sendmail[12448]: My unqualified host name (hadoopsrv1) unknown; sleeping for retry
+Nov 29 19:31:02 hadoopsrv1 sendmail[12427]: unable to qualify my own domain name (hadoopsrv1) -- using short name
+Nov 29 19:31:02 hadoopsrv1 sendmail[12427]: uATBV2MG012427: from=root, size=222, class=0, nrcpts=1, msgid=<201611291131.uATBV2MG012427@hadoopsrv1>, relay=root@localhost
+Nov 29 19:31:04 hadoopsrv1 sendmail[12449]: uATBV2md012449: from=<root@hadoopsrv1>, size=448, class=0, nrcpts=1, msgid=<201611291131.uATBV2MG012427@hadoopsrv1>, proto=ESMTP, daemon=MTA, relay=localhost [127.0.0.1]
+Nov 29 19:31:04 hadoopsrv1 sendmail[12427]: uATBV2MG012427: to=zylhb2012@163.com, ctladdr=root (0/0), delay=00:00:02, xdelay=00:00:02, mailer=relay, pri=30222, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (uATBV2md012449 Message accepted for delivery)
+Nov 29 19:31:18 hadoopsrv1 sendmail[12451]: uATBV2md012449: to=<zylhb2012@163.com>, ctladdr=<root@hadoopsrv1> (0/0), delay=00:00:14, xdelay=00:00:14, mailer=esmtp, pri=120448, relay=163mx03.mxmail.netease.com. [220.181.14.161], dsn=5.0.0, stat=Service unavailable
+Nov 29 19:31:18 hadoopsrv1 sendmail[12451]: uATBV2md012449: uATBVImd012451: DSN: Service unavailable
+Nov 29 19:31:20 hadoopsrv1 sendmail[12451]: uATBVImd012451: to=<root@hadoopsrv1>, delay=00:00:02, xdelay=00:00:02, mailer=local, pri=31677, dsn=2.0.0, stat=Sent
+Nov 29 19:31:20 hadoopsrv1 sendmail[12451]: uATBV2md012449: uATBVIme012451: postmaster notify: Service unavailable
+Nov 29 19:31:20 hadoopsrv1 sendmail[12451]: uATBVIme012451: to=root, delay=00:00:00, xdelay=00:00:00, mailer=local, pri=30000, dsn=2.0.0, stat=Sent
+Nov 29 19:31:31 hadoopsrv1 sendmail[12448]: unable to qualify my own domain name (hadoopsrv1) -- using short name
+Nov 29 19:31:31 hadoopsrv1 sendmail[12448]: gethostbyaddr(127.0.0.2) failed: 1
+Nov 29 19:44:45 hadoopsrv1 sendmail[12802]: My unqualified host name (hadoopsrv1) unknown; sleeping for retry
+Nov 29 19:44:56 hadoopsrv1 sendmail[12805]: My unqualified host name (hadoopsrv1) unknown; sleeping for retry
+Nov 29 19:45:45 hadoopsrv1 sendmail[12802]: unable to qualify my own domain name (hadoopsrv1) -- using short name
+Nov 29 19:45:45 hadoopsrv1 sendmail[12802]: uATBjjgB012802: from=root, size=222, class=0, nrcpts=1, msgid=<201611291145.uATBjjgB012802@hadoopsrv1>, relay=root@localhost
+Nov 29 19:45:47 hadoopsrv1 sendmail[12831]: uATBjj9M012831: from=<root@hadoopsrv1>, size=448, class=0, nrcpts=1, msgid=<201611291145.uATBjjgB012802@hadoopsrv1>, proto=ESMTP, daemon=MTA, relay=localhost [127.0.0.1]
+Nov 29 19:45:47 hadoopsrv1 sendmail[12802]: uATBjjgB012802: to=zylhb2012@163.com, ctladdr=root (0/0), delay=00:00:02, xdelay=00:00:02, mailer=relay, pri=30222, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (uATBjj9M012831 Message accepted for delivery)
+Nov 29 19:45:56 hadoopsrv1 sendmail[12805]: unable to qualify my own domain name (hadoopsrv1) -- using short name
+Nov 29 19:45:56 hadoopsrv1 sendmail[12805]: uATBjuRt012805: from=root, size=222, class=0, nrcpts=1, msgid=<201611291145.uATBjuRt012805@hadoopsrv1>, relay=root@localhost
+Nov 29 19:45:58 hadoopsrv1 sendmail[12834]: uATBjurZ012834: from=<root@hadoopsrv1>, size=448, class=0, nrcpts=1, msgid=<201611291145.uATBjuRt012805@hadoopsrv1>, proto=ESMTP, daemon=MTA, relay=localhost [127.0.0.1]
+Nov 29 19:45:58 hadoopsrv1 sendmail[12805]: uATBjuRt012805: to=zylhb2012@163.com, ctladdr=root (0/0), delay=00:00:02, xdelay=00:00:02, mailer=relay, pri=30222, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (uATBjurZ012834 Message accepted for delivery)
+Nov 29 19:45:58 hadoopsrv1 sendmail[12833]: uATBjj9M012831: to=<zylhb2012@163.com>, ctladdr=<root@hadoopsrv1> (0/0), delay=00:00:11, xdelay=00:00:11, mailer=esmtp, pri=120448, relay=163mx02.mxmail.netease.com. [220.181.14.155], dsn=5.0.0, stat=Service unavailable
+Nov 29 19:45:58 hadoopsrv1 sendmail[12833]: uATBjj9M012831: uATBjw9M012833: DSN: Service unavailable
+Nov 29 19:45:58 hadoopsrv1 sendmail[12833]: uATBjw9M012833: to=<root@hadoopsrv1>, delay=00:00:00, xdelay=00:00:00, mailer=local, pri=31677, dsn=2.0.0, stat=Sent
+Nov 29 19:45:58 hadoopsrv1 sendmail[12833]: uATBjj9M012831: uATBjw9N012833: postmaster notify: Service unavailable
+Nov 29 19:45:58 hadoopsrv1 sendmail[12833]: uATBjw9N012833: to=root, delay=00:00:00, xdelay=00:00:00, mailer=local, pri=30000, dsn=2.0.0, stat=Sent
+Nov 29 19:46:02 hadoopsrv1 sendmail[12836]: uATBjurZ012834: to=<zylhb2012@163.com>, ctladdr=<root@hadoopsrv1> (0/0), delay=00:00:04, xdelay=00:00:04, mailer=esmtp, pri=120448, relay=163mx02.mxmail.netease.com. [220.181.14.154], dsn=5.0.0, stat=Service unavailable
+Nov 29 19:46:02 hadoopsrv1 sendmail[12836]: uATBjurZ012834: uATBk2rZ012836: DSN: Service unavailable
+Nov 29 19:46:02 hadoopsrv1 sendmail[12836]: uATBk2rZ012836: to=<root@hadoopsrv1>, delay=00:00:00, xdelay=00:00:00, mailer=local, pri=31677, dsn=2.0.0, stat=Sent
+Nov 29 19:46:02 hadoopsrv1 sendmail[12836]: uATBjurZ012834: uATBk2ra012836: postmaster notify: Service unavailable
+Nov 29 19:46:02 hadoopsrv1 sendmail[12836]: uATBk2ra012836: to=root, delay=00:00:00, xdelay=00:00:00, mailer=local, pri=30000, dsn=2.0.0, stat=Sent
+Nov 29 11:48:11 hadoopsrv1 sendmail[12952]: My unqualified host name (hadoopsrv1) unknown; sleeping for retry
+Nov 29 11:49:11 hadoopsrv1 sendmail[12952]: unable to qualify my own domain name (hadoopsrv1) -- using short name
+Nov 29 11:49:11 hadoopsrv1 sendmail[12952]: uAT3nBrj012952: from=root, size=222, class=0, nrcpts=1, msgid=<201611290349.uAT3nBrj012952@hadoopsrv1>, relay=root@localhost
+Nov 29 11:49:14 hadoopsrv1 sendmail[12963]: uAT3nCI1012963: from=<root@hadoopsrv1>, size=448, class=0, nrcpts=1, msgid=<201611290349.uAT3nBrj012952@hadoopsrv1>, proto=ESMTP, daemon=MTA, relay=localhost [127.0.0.1]
+Nov 29 11:49:14 hadoopsrv1 sendmail[12952]: uAT3nBrj012952: to=zylhb2012@163.com, ctladdr=root (0/0), delay=00:00:03, xdelay=00:00:02, mailer=relay, pri=30222, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (uAT3nCI1012963 Message accepted for delivery)
+Nov 29 11:49:20 hadoopsrv1 sendmail[12965]: uAT3nCI1012963: to=<zylhb2012@163.com>, ctladdr=<root@hadoopsrv1> (0/0), delay=00:00:06, xdelay=00:00:06, mailer=esmtp, pri=120448, relay=163mx02.mxmail.netease.com. [220.181.14.146], dsn=5.0.0, stat=Service unavailable
+Nov 29 11:49:20 hadoopsrv1 sendmail[12965]: uAT3nCI1012963: uAT3nKI1012965: DSN: Service unavailable
+Nov 29 11:49:20 hadoopsrv1 sendmail[12965]: uAT3nKI1012965: to=<root@hadoopsrv1>, delay=00:00:00, xdelay=00:00:00, mailer=local, pri=31677, dsn=2.0.0, stat=Sent
+Nov 29 11:49:20 hadoopsrv1 sendmail[12965]: uAT3nCI1012963: uAT3nKI2012965: postmaster notify: Service unavailable
+Nov 29 11:49:20 hadoopsrv1 sendmail[12965]: uAT3nKI2012965: to=root, delay=00:00:00, xdelay=00:00:00, mailer=local, pri=30000, dsn=2.0.0, stat=Sent
+Nov 29 13:53:35 hadoopsrv1 sendmail[35237]: My unqualified host name (hadoopsrv1) unknown; sleeping for retry
+Nov 29 13:54:35 hadoopsrv1 sendmail[35237]: unable to qualify my own domain name (hadoopsrv1) -- using short name
+Nov 29 13:54:35 hadoopsrv1 sendmail[35237]: uAT5sZcB035237: from=root, size=222, class=0, nrcpts=1, msgid=<201611290554.uAT5sZcB035237@hadoopsrv1>, relay=root@localhost
+Nov 29 13:54:38 hadoopsrv1 sendmail[35238]: uAT5saa8035238: from=<root@hadoopsrv1>, size=448, class=0, nrcpts=1, msgid=<201611290554.uAT5sZcB035237@hadoopsrv1>, proto=ESMTP, daemon=MTA, relay=localhost [127.0.0.1]
+Nov 29 13:54:38 hadoopsrv1 sendmail[35237]: uAT5sZcB035237: to=zylhb2012@163.com, ctladdr=root (0/0), delay=00:00:03, xdelay=00:00:03, mailer=relay, pri=30222, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (uAT5saa8035238 Message accepted for delivery)
+Nov 29 13:54:45 hadoopsrv1 sendmail[35240]: uAT5saa8035238: to=<zylhb2012@163.com>, ctladdr=<root@hadoopsrv1> (0/0), delay=00:00:07, xdelay=00:00:07, mailer=esmtp, pri=120448, relay=163mx03.mxmail.netease.com. [220.181.14.158], dsn=5.0.0, stat=Service unavailable
+Nov 29 13:54:45 hadoopsrv1 sendmail[35240]: uAT5saa8035238: uAT5sja8035240: DSN: Service unavailable
+Nov 29 13:54:45 hadoopsrv1 sendmail[35240]: uAT5sja8035240: to=<root@hadoopsrv1>, delay=00:00:00, xdelay=00:00:00, mailer=local, pri=31677, dsn=2.0.0, stat=Sent
+Nov 29 13:54:45 hadoopsrv1 sendmail[35240]: uAT5saa8035238: uAT5sja9035240: postmaster notify: Service unavailable
+Nov 29 13:54:45 hadoopsrv1 sendmail[35240]: uAT5sja9035240: to=root, delay=00:00:00, xdelay=00:00:00, mailer=local, pri=30000, dsn=2.0.0, stat=Sent
+Nov 29 14:20:17 hadoopsrv1 sendmail[35583]: gethostbyaddr(127.0.0.2) failed: 1
+Nov 29 14:20:19 hadoopsrv1 sendmail[35583]: alias database /etc/aliases rebuilt by root
+Nov 29 14:20:19 hadoopsrv1 sendmail[35583]: /etc/aliases: 40 aliases, longest 10 bytes, 465 bytes total
+Nov 29 15:09:03 hadoopsrv1 sendmail[36803]: gethostbyaddr(127.0.0.2) failed: 1
+Nov 29 15:09:03 hadoopsrv1 sendmail[36804]: starting daemon (8.14.3): SMTP+queueing@00:30:00
+Nov 29 15:09:03 hadoopsrv1 sendmail-client[36809]: starting daemon (8.14.3): persistent-queueing@00:01:00
+Nov 29 15:12:00 hadoopsrv1 sendmail[36846]: gethostbyaddr(127.0.0.2) failed: 1
+Nov 29 15:12:00 hadoopsrv1 sendmail[36847]: starting daemon (8.14.3): SMTP+queueing@00:30:00
+Nov 29 15:12:01 hadoopsrv1 sendmail-client[36854]: starting daemon (8.14.3): persistent-queueing@00:01:00
+Nov 29 15:28:07 hadoopsrv1 sendmail[45536]: gethostbyaddr(127.0.0.2) failed: 1
+Nov 29 15:28:07 hadoopsrv1 sendmail[45536]: gethostbyaddr(10.224.192.130) failed: 1
+Nov 29 15:28:07 hadoopsrv1 sendmail[45536]: alias database /etc/aliases rebuilt by root
+Nov 29 15:28:07 hadoopsrv1 sendmail[45536]: /etc/aliases: 40 aliases, longest 10 bytes, 465 bytes total
+Nov 29 15:31:05 hadoopsrv1 sendmail[51042]: gethostbyaddr(127.0.0.2) failed: 1
+Nov 29 15:31:05 hadoopsrv1 sendmail[51042]: alias database /etc/aliases rebuilt by root
+Nov 29 15:31:05 hadoopsrv1 sendmail[51042]: /etc/aliases: 40 aliases, longest 10 bytes, 465 bytes total
+Nov 29 15:35:26 hadoopsrv1 sendmail[5461]: gethostbyaddr(127.0.0.2) failed: 1
+Nov 29 15:35:27 hadoopsrv1 sendmail[5466]: starting daemon (8.14.3): SMTP+queueing@00:30:00
+Nov 29 15:35:27 hadoopsrv1 sendmail-client[5475]: starting daemon (8.14.3): persistent-queueing@00:01:00
+Nov 29 15:38:45 hadoopsrv1 sendmail[5472]: gethostbyaddr(127.0.0.2) failed: 1
+Nov 29 15:38:45 hadoopsrv1 sendmail[5473]: starting daemon (8.14.3): SMTP+queueing@00:30:00
+Nov 29 15:38:46 hadoopsrv1 sendmail-client[5483]: starting daemon (8.14.3): persistent-queueing@00:01:00
+Nov 29 15:44:55 hadoopsrv1 sendmail[13356]: gethostbyaddr(127.0.0.2) failed: 1
+Nov 29 15:44:55 hadoopsrv1 sendmail[13356]: gethostbyaddr(10.224.192.130) failed: 1
+Nov 29 15:44:55 hadoopsrv1 sendmail[13356]: alias database /etc/aliases rebuilt by root
+Nov 29 15:44:55 hadoopsrv1 sendmail[13356]: /etc/aliases: 40 aliases, longest 10 bytes, 465 bytes total
+Nov 29 15:50:47 hadoopsrv1 sendmail[8999]: gethostbyaddr(127.0.0.2) failed: 1
+Nov 29 15:50:47 hadoopsrv1 sendmail[8999]: gethostbyaddr(10.224.192.130) failed: 1
+Nov 29 15:50:47 hadoopsrv1 sendmail[9004]: starting daemon (8.14.3): SMTP+queueing@00:30:00
+Nov 29 15:50:48 hadoopsrv1 sendmail-client[9013]: starting daemon (8.14.3): persistent-queueing@00:01:00
+Nov 29 16:21:09 hadoopsrv1 sendmail[14102]: gethostbyaddr(127.0.0.2) failed: 1
+Nov 29 16:21:09 hadoopsrv1 sendmail[14102]: alias database /etc/aliases rebuilt by root
+Nov 29 16:21:09 hadoopsrv1 sendmail[14102]: /etc/aliases: 40 aliases, longest 10 bytes, 465 bytes total
+Nov 29 16:28:42 hadoopsrv1 sendmail[5193]: gethostbyaddr(127.0.0.2) failed: 1
+Nov 29 16:28:42 hadoopsrv1 sendmail[5194]: starting daemon (8.14.3): SMTP+queueing@00:30:00
+Nov 29 16:28:42 hadoopsrv1 sendmail-client[5203]: starting daemon (8.14.3): persistent-queueing@00:01:00
+Nov 29 16:45:09 hadoopsrv1 sendmail[9818]: gethostbyaddr(127.0.0.2) failed: 1
+Nov 29 16:45:09 hadoopsrv1 sendmail[9818]: alias database /etc/aliases rebuilt by root
+Nov 29 16:45:09 hadoopsrv1 sendmail[9818]: /etc/aliases: 40 aliases, longest 10 bytes, 465 bytes total
+Dec 28 22:56:54 hadoopsrv1 sendmail[5336]: gethostbyaddr(127.0.0.2) failed: 1
+Dec 28 22:56:54 hadoopsrv1 sendmail[5339]: starting daemon (8.14.3): SMTP+queueing@00:30:00
+Dec 28 22:56:54 hadoopsrv1 sendmail-client[5345]: starting daemon (8.14.3): persistent-queueing@00:01:00
+Jan 16 09:05:59 hadoopsrv1 sendmail[5375]: gethostbyaddr(127.0.0.2) failed: 1
+Jan 16 09:05:59 hadoopsrv1 sendmail[5376]: starting daemon (8.14.3): SMTP+queueing@00:30:00
+Jan 16 09:05:59 hadoopsrv1 sendmail-client[5382]: starting daemon (8.14.3): persistent-queueing@00:01:00
+Jan 16 14:44:06 hadoopsrv1 sendmail[5346]: gethostbyaddr(127.0.0.2) failed: 1
+Jan 16 14:44:06 hadoopsrv1 sendmail[5355]: starting daemon (8.14.3): SMTP+queueing@00:30:00
+Jan 16 14:44:06 hadoopsrv1 sendmail-client[5362]: starting daemon (8.14.3): persistent-queueing@00:01:00
+Feb  8 08:29:02 hadoopsrv1 sendmail[5426]: gethostbyaddr(127.0.0.2) failed: 1
+Feb  8 08:29:02 hadoopsrv1 sendmail[5427]: starting daemon (8.14.3): SMTP+queueing@00:30:00
+Feb  8 08:29:02 hadoopsrv1 sendmail-client[5445]: starting daemon (8.14.3): persistent-queueing@00:01:00
+Feb  9 10:08:18 hadoopsrv1 sendmail[5385]: gethostbyaddr(127.0.0.2) failed: 1
+Feb  9 10:08:18 hadoopsrv1 sendmail[5386]: starting daemon (8.14.3): SMTP+queueing@00:30:00
+Feb  9 10:08:18 hadoopsrv1 sendmail-client[5391]: starting daemon (8.14.3): persistent-queueing@00:01:00
+Feb 10 09:22:28 hadoopsrv1 sendmail[5366]: gethostbyaddr(127.0.0.2) failed: 1
+Feb 10 09:22:28 hadoopsrv1 sendmail[5367]: starting daemon (8.14.3): SMTP+queueing@00:30:00
+Feb 10 09:22:28 hadoopsrv1 sendmail-client[5372]: starting daemon (8.14.3): persistent-queueing@00:01:00
+Feb 14 10:09:29 hadoopsrv1 sendmail[5376]: gethostbyaddr(127.0.0.2) failed: 1
+Feb 14 10:09:29 hadoopsrv1 sendmail[5381]: starting daemon (8.14.3): SMTP+queueing@00:30:00
+Feb 14 10:09:30 hadoopsrv1 sendmail-client[5390]: starting daemon (8.14.3): persistent-queueing@00:01:00
+Feb 15 09:16:24 hadoopsrv1 sendmail[5399]: gethostbyaddr(127.0.0.2) failed: 1
+Feb 15 09:16:24 hadoopsrv1 sendmail[5400]: starting daemon (8.14.3): SMTP+queueing@00:30:00
+Feb 15 09:16:25 hadoopsrv1 sendmail-client[5418]: starting daemon (8.14.3): persistent-queueing@00:01:00
+Feb 18 10:22:56 hadoopsrv1 sendmail[5431]: gethostbyaddr(127.0.0.2) failed: 1
+Feb 18 10:22:56 hadoopsrv1 sendmail[5432]: starting daemon (8.14.3): SMTP+queueing@00:30:00
+Feb 18 10:22:56 hadoopsrv1 sendmail-client[5437]: starting daemon (8.14.3): persistent-queueing@00:01:00
+Feb 20 08:51:17 hadoopsrv1 sendmail[5397]: gethostbyaddr(127.0.0.2) failed: 1
+Feb 20 08:51:17 hadoopsrv1 sendmail[5412]: starting daemon (8.14.3): SMTP+queueing@00:30:00
+Feb 20 08:51:18 hadoopsrv1 sendmail-client[5440]: starting daemon (8.14.3): persistent-queueing@00:01:00
+Feb 21 08:49:24 hadoopsrv1 sendmail[5359]: gethostbyaddr(127.0.0.2) failed: 1
+Feb 21 08:49:24 hadoopsrv1 sendmail[5369]: starting daemon (8.14.3): SMTP+queueing@00:30:00
+Feb 21 08:49:24 hadoopsrv1 sendmail-client[5402]: starting daemon (8.14.3): persistent-queueing@00:01:00
+Feb 21 09:19:10 hadoopsrv1 sendmail[5440]: gethostbyaddr(127.0.0.2) failed: 1
+Feb 21 09:19:10 hadoopsrv1 sendmail[5450]: starting daemon (8.14.3): SMTP+queueing@00:30:00
+Feb 21 09:19:11 hadoopsrv1 sendmail-client[5480]: starting daemon (8.14.3): persistent-queueing@00:01:00
+Feb 22 14:02:56 hadoopsrv1 sendmail[5425]: gethostbyaddr(127.0.0.2) failed: 1
+Feb 22 14:02:56 hadoopsrv1 sendmail[5426]: starting daemon (8.14.3): SMTP+queueing@00:30:00
+Feb 22 14:02:56 hadoopsrv1 sendmail-client[5431]: starting daemon (8.14.3): persistent-queueing@00:01:00
+Feb 23 23:03:51 hadoopsrv1 sendmail[5427]: gethostbyaddr(127.0.0.2) failed: 1
+Feb 23 23:03:51 hadoopsrv1 sendmail[5455]: starting daemon (8.14.3): SMTP+queueing@00:30:00
+Feb 23 23:03:52 hadoopsrv1 sendmail-client[5461]: starting daemon (8.14.3): persistent-queueing@00:01:00
+Feb 23 23:55:02 hadoopsrv1 sendmail[8209]: gethostbyaddr(127.0.0.2) failed: 1
+Feb 23 23:55:03 hadoopsrv1 sendmail[8209]: alias database /etc/aliases rebuilt by root
+Feb 23 23:55:03 hadoopsrv1 sendmail[8209]: /etc/aliases: 40 aliases, longest 10 bytes, 465 bytes total
+Feb 24 08:36:46 hadoopsrv1 sendmail[5362]: gethostbyaddr(127.0.0.2) failed: 1
+Feb 24 08:36:46 hadoopsrv1 sendmail[5367]: starting daemon (8.14.3): SMTP+queueing@00:30:00
+Feb 24 08:36:46 hadoopsrv1 sendmail-client[5394]: starting daemon (8.14.3): persistent-queueing@00:01:00
+

@@ -1,0 +1,122 @@
+﻿级别,日期和时间,来源,事件 ID,任务类别
+信息,2017/2/21 星期二 15:39:42,Microsoft-Windows-Security-Auditing,4634,注销,"已注销帐户。
+
+使用者:
+	安全 ID:		ANONYMOUS LOGON
+	帐户名:		ANONYMOUS LOGON
+	帐户域:		NT AUTHORITY
+	登录 ID:		0x2217612
+
+登录类型:			3
+
+在登录会话被破坏时生成此事件。可以使用登录 ID 值将它和一个登录事件准确关联起来。在同一台计算机上重新启动的区间中，登录 ID 是唯一的。"
+信息,2017/2/21 星期二 15:39:29,Microsoft-Windows-Security-Auditing,4634,注销,"已注销帐户。
+
+使用者:
+	安全 ID:		ANONYMOUS LOGON
+	帐户名:		ANONYMOUS LOGON
+	帐户域:		NT AUTHORITY
+	登录 ID:		0x2217631
+
+登录类型:			3
+
+在登录会话被破坏时生成此事件。可以使用登录 ID 值将它和一个登录事件准确关联起来。在同一台计算机上重新启动的区间中，登录 ID 是唯一的。"
+信息,2017/2/21 星期二 15:39:29,Microsoft-Windows-Security-Auditing,4634,注销,"已注销帐户。
+
+使用者:
+	安全 ID:		ANONYMOUS LOGON
+	帐户名:		ANONYMOUS LOGON
+	帐户域:		NT AUTHORITY
+	登录 ID:		0x22175F4
+
+登录类型:			3
+
+在登录会话被破坏时生成此事件。可以使用登录 ID 值将它和一个登录事件准确关联起来。在同一台计算机上重新启动的区间中，登录 ID 是唯一的。"
+信息,2017/2/16 星期四 13:40:41,Microsoft-Windows-Security-Auditing,4634,注销,"已注销帐户。
+
+使用者:
+	安全 ID:		CG-NOTEBOOK\CG
+	帐户名:		CG
+	帐户域:		CG-NOTEBOOK
+	登录 ID:		0x12B5176
+
+登录类型:			2
+
+在登录会话被破坏时生成此事件。可以使用登录 ID 值将它和一个登录事件准确关联起来。在同一台计算机上重新启动的区间中，登录 ID 是唯一的。"
+信息,2017/2/16 星期四 13:40:41,Microsoft-Windows-Security-Auditing,4634,注销,"已注销帐户。
+
+使用者:
+	安全 ID:		CG-NOTEBOOK\CG
+	帐户名:		CG
+	帐户域:		CG-NOTEBOOK
+	登录 ID:		0x12B5196
+
+登录类型:			2
+
+在登录会话被破坏时生成此事件。可以使用登录 ID 值将它和一个登录事件准确关联起来。在同一台计算机上重新启动的区间中，登录 ID 是唯一的。"
+信息,2017/2/14 星期二 13:38:07,Microsoft-Windows-Security-Auditing,4634,注销,"已注销帐户。
+
+使用者:
+	安全 ID:		CG-NOTEBOOK\CG
+	帐户名:		CG
+	帐户域:		CG-NOTEBOOK
+	登录 ID:		0x12716E9
+
+登录类型:			2
+
+在登录会话被破坏时生成此事件。可以使用登录 ID 值将它和一个登录事件准确关联起来。在同一台计算机上重新启动的区间中，登录 ID 是唯一的。"
+信息,2017/2/14 星期二 13:38:07,Microsoft-Windows-Security-Auditing,4634,注销,"已注销帐户。
+
+使用者:
+	安全 ID:		CG-NOTEBOOK\CG
+	帐户名:		CG
+	帐户域:		CG-NOTEBOOK
+	登录 ID:		0x1271720
+
+登录类型:			2
+
+在登录会话被破坏时生成此事件。可以使用登录 ID 值将它和一个登录事件准确关联起来。在同一台计算机上重新启动的区间中，登录 ID 是唯一的。"
+信息,2017/2/13 星期一 17:21:30,Microsoft-Windows-Security-Auditing,4634,注销,"已注销帐户。
+
+使用者:
+	安全 ID:		CG-NOTEBOOK\CG
+	帐户名:		CG
+	帐户域:		CG-NOTEBOOK
+	登录 ID:		0x296995E
+
+登录类型:			2
+
+在登录会话被破坏时生成此事件。可以使用登录 ID 值将它和一个登录事件准确关联起来。在同一台计算机上重新启动的区间中，登录 ID 是唯一的。"
+信息,2017/2/13 星期一 17:21:30,Microsoft-Windows-Security-Auditing,4634,注销,"已注销帐户。
+
+使用者:
+	安全 ID:		CG-NOTEBOOK\CG
+	帐户名:		CG
+	帐户域:		CG-NOTEBOOK
+	登录 ID:		0x296997E
+
+登录类型:			2
+
+在登录会话被破坏时生成此事件。可以使用登录 ID 值将它和一个登录事件准确关联起来。在同一台计算机上重新启动的区间中，登录 ID 是唯一的。"
+信息,2017/2/13 星期一 13:34:12,Microsoft-Windows-Security-Auditing,4634,注销,"已注销帐户。
+
+使用者:
+	安全 ID:		CG-NOTEBOOK\CG
+	帐户名:		CG
+	帐户域:		CG-NOTEBOOK
+	登录 ID:		0x14BE65E
+
+登录类型:			2
+
+在登录会话被破坏时生成此事件。可以使用登录 ID 值将它和一个登录事件准确关联起来。在同一台计算机上重新启动的区间中，登录 ID 是唯一的。"
+信息,2017/2/13 星期一 13:34:12,Microsoft-Windows-Security-Auditing,4634,注销,"已注销帐户。
+
+使用者:
+	安全 ID:		CG-NOTEBOOK\CG
+	帐户名:		CG
+	帐户域:		CG-NOTEBOOK
+	登录 ID:		0x14BE67D
+
+登录类型:			2
+
+在登录会话被破坏时生成此事件。可以使用登录 ID 值将它和一个登录事件准确关联起来。在同一台计算机上重新启动的区间中，登录 ID 是唯一的。"

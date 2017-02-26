@@ -1,0 +1,111 @@
+﻿级别,日期和时间,来源,事件 ID,任务类别
+信息,2017/2/25 星期六 18:07:25,Microsoft-Windows-Security-Auditing,4734,安全组管理,"已删除启用了安全性的本地组。
+
+使用者:
+	安全 ID:		CG-NOTEBOOK\CG
+	帐户名:		CG
+	帐户域:		CG-NOTEBOOK
+	登录 ID:		0x51690
+
+组:
+	安全 ID:		S-1-5-21-861658043-3898366556-2923534216-1003
+	组名:		test_grp
+	组域:		CG-NOTEBOOK
+
+附加信息:
+	特权:		-"
+信息,2017/2/25 星期六 18:07:21,Microsoft-Windows-Security-Auditing,4733,安全组管理,"已从启用了安全性的本地组中删除某个成员。
+
+使用者:
+	安全 ID:		CG-NOTEBOOK\CG
+	帐户名:		CG
+	帐户域:		CG-NOTEBOOK
+	登录 ID:		0x51690
+
+成员:
+	安全 ID:		CG-NOTEBOOK\CG
+	帐户名:		-
+
+组:
+	安全 ID:		S-1-5-21-861658043-3898366556-2923534216-1003
+	组名:		test_grp
+	组域:		CG-NOTEBOOK
+
+附加信息:
+	特权:		-"
+信息,2017/2/25 星期六 18:00:13,Microsoft-Windows-Security-Auditing,4735,安全组管理,"已更改启用了安全性的本地组。
+
+使用者:
+	安全 ID:		CG-NOTEBOOK\CG
+	帐户名:		CG
+	帐户域:		CG-NOTEBOOK
+	登录 ID:		0x51690
+
+组:
+	安全 ID:		S-1-5-21-861658043-3898366556-2923534216-1003
+	组名:		test_grp
+	组域:		CG-NOTEBOOK
+
+已更改的属性:
+	SAM 帐户名:	-
+	SID 历史:		-
+
+附加信息:
+	特权:		-"
+信息,2017/2/25 星期六 18:00:13,Microsoft-Windows-Security-Auditing,4732,安全组管理,"已向启用了安全性的本地组中添加某个成员。
+
+使用者:
+	安全 ID:		CG-NOTEBOOK\CG
+	帐户名称:		CG
+	帐户域:		CG-NOTEBOOK
+	登录 ID:		0x51690
+
+成员:
+	安全 ID:		CG-NOTEBOOK\CG
+	帐户名称:		-
+
+组:
+	安全 ID:		S-1-5-21-861658043-3898366556-2923534216-1003
+	组名:		test_grp
+	组域:		CG-NOTEBOOK
+
+附加信息:
+	特权:		-"
+信息,2017/2/25 星期六 18:00:13,Microsoft-Windows-Security-Auditing,4735,安全组管理,"已更改启用了安全性的本地组。
+
+使用者:
+	安全 ID:		CG-NOTEBOOK\CG
+	帐户名:		CG
+	帐户域:		CG-NOTEBOOK
+	登录 ID:		0x51690
+
+组:
+	安全 ID:		S-1-5-21-861658043-3898366556-2923534216-1003
+	组名:		test_grp
+	组域:		CG-NOTEBOOK
+
+已更改的属性:
+	SAM 帐户名:	-
+	SID 历史:		-
+
+附加信息:
+	特权:		-"
+信息,2017/2/25 星期六 18:00:13,Microsoft-Windows-Security-Auditing,4731,安全组管理,"已创建启用了安全性的本地组。
+
+使用者:
+	安全 ID:		CG-NOTEBOOK\CG
+	帐户名:		CG
+	帐户域:		CG-NOTEBOOK
+	登录 ID:		0x51690
+
+新组:
+	安全 ID:		S-1-5-21-861658043-3898366556-2923534216-1003
+	组名:		test_grp
+	组域:		CG-NOTEBOOK
+
+属性:
+	SAM 帐户名:	test_grp
+	SID 历史:		-
+
+附加信息:
+	特权:		-"

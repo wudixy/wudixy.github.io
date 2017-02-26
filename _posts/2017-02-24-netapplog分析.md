@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "NETAPP存储设备日志分析"
-categories: [技术资料]
+categories: [日志分析]
 tags: [log,netapp]
 ---
 

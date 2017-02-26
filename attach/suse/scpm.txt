@@ -1,0 +1,29 @@
+Tue Aug 30 17:42:58 2016 scpm (scdb) warning could not open /var/lib/scpm/scdb/scdb.db
+Tue Aug 30 17:42:58 2016 scpm (scpm) ERROR could not open database
+Tue Aug 30 17:42:58 2016 scpm (scpm_helpers) warning database I/O error (key not found)
+Tue Aug 30 17:42:58 2016 scpm (scpm_helpers) warning could not determine installed system
+Tue Aug 30 17:42:58 2016 scpm (scpm_helpers) warning scdb error (key not found)
+Tue Aug 30 17:42:58 2016 scpm (scpm_helpers) ERROR status operation failed
+Tue Aug 30 17:42:58 2016 scpm (scpm) warning could not query scpm status
+Tue Nov 29 19:20:22 2016 scpm (scdb) warning could not open /var/lib/scpm/scdb/scdb.db
+Tue Nov 29 19:20:22 2016 scpm (scpm) ERROR could not open database
+Tue Nov 29 19:20:22 2016 scpm (scpm_helpers) warning database I/O error (key not found)
+Tue Nov 29 19:20:22 2016 scpm (scpm_helpers) warning could not determine installed system
+Tue Nov 29 19:20:22 2016 scpm (scpm_helpers) warning scdb error (key not found)
+Tue Nov 29 19:20:22 2016 scpm (scpm_helpers) ERROR status operation failed
+Tue Nov 29 19:20:22 2016 scpm (scpm) warning could not query scpm status
+Thu Feb 23 23:55:00 2017 scpm (scdb) warning could not open /var/lib/scpm/scdb/scdb.db
+Thu Feb 23 23:55:00 2017 scpm (scpm) ERROR could not open database
+Thu Feb 23 23:55:00 2017 scpm (scpm_helpers) warning database I/O error (key not found)
+Thu Feb 23 23:55:00 2017 scpm (scpm_helpers) warning could not determine installed system
+Thu Feb 23 23:55:00 2017 scpm (scpm_helpers) warning scdb error (key not found)
+Thu Feb 23 23:55:00 2017 scpm (scpm_helpers) ERROR status operation failed
+Thu Feb 23 23:55:00 2017 scpm (scpm) warning could not query scpm status
+Fri Feb 24 19:57:56 2017 scpm (scdb) warning could not open /var/lib/scpm/scdb/scdb.db
+Fri Feb 24 19:57:56 2017 scpm (scpm) ERROR could not open database
+Fri Feb 24 19:57:56 2017 scpm (scpm_helpers) warning database I/O error (key not found)
+Fri Feb 24 19:57:56 2017 scpm (scpm_helpers) warning could not determine installed system
+Fri Feb 24 19:57:56 2017 scpm (scpm_helpers) warning scdb error (key not found)
+Fri Feb 24 19:57:56 2017 scpm (scpm_helpers) ERROR status operation failed
+Fri Feb 24 19:57:56 2017 scpm (scpm) warning could not query scpm status
+

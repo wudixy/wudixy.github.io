@@ -1,0 +1,146 @@
+30- 8月 17:43:23 <I> Initializing...
+30- 8月 17:43:24 <I> [ Sysp: Mouse detection data
+	Mouse0    =>  Protocol   : explorerps/2
+	Mouse0    =>  Device     : /dev/input/mice
+	Mouse0    =>  Buttons    : 10
+	Mouse0    =>  Wheel      : 1
+	Mouse0    =>  Emulate    : 0
+	Mouse0    =>  Name       : VMware Virtual USB Mouse
+	Mouse0    =>  VendorID   : 0x0e0f
+	Mouse0    =>  DeviceID   : 0x0003
+	Mouse0    =>  Profile    : <undefined>
+	Mouse0    =>  RealDevice : /dev/input/by-path/pci-0000:02:00.0-usb-0:1:1.0-event-mouse
+	Mouse0    =>  NutShell   : 0
+	
+	Mouse1    =>  Protocol   : explorerps/2
+	Mouse1    =>  Device     : /dev/input/mice
+	Mouse1    =>  Buttons    : 5
+	Mouse1    =>  Wheel      : 1
+	Mouse1    =>  Emulate    : 0
+	Mouse1    =>  Name       : VMware Mouse
+	Mouse1    =>  VendorID   : 0x15ad
+	Mouse1    =>  DeviceID   : 0x0100
+	Mouse1    =>  Profile    : vmware-mouse
+	Mouse1    =>  RealDevice : /dev/input/by-path/platform-i8042-serio-1-event-mouse
+	Mouse1    =>  NutShell   : 0
+]
+30- 8月 17:43:24 <I> [ Sysp: Keyboard detection data
+	Keyboard0 =>  XkbModel   : microsoftpro
+	Keyboard0 =>  XkbLayout  : us
+	Keyboard0 =>  Name       : AT Translated Set 2 keyboard
+	Keyboard0 =>  VendorID   : 0x0001
+	Keyboard0 =>  DeviceID   : 0x0001
+	Keyboard0 =>  Profile    : <undefined>
+	Keyboard0 =>  RealDevice : /dev/input/event0
+]
+30- 8月 17:43:35 <I> [ Sysp: Server detection data
+	Card0     =>  DomainId   : 0x0
+	Card0     =>  BusId      : 0x0
+	Card0     =>  SlotId     : 0x0f
+	Card0     =>  FuncId     : 0x0
+	Card0     =>  Vendor     : VMWare Inc
+	Card0     =>  Device     : VMWARE0405
+	Card0     =>  VID        : 0x15ad
+	Card0     =>  DID        : 0x0405
+	Card0     =>  Module     : vmware
+	Card0     =>  BusType    : PCI
+	Card0     =>  Detected   : 1
+	Card0     =>  Flag       : DEFAULT
+	Card0     =>  SUB-VID    : 0x15ad
+	Card0     =>  SUB-DID    : 0x0405
+	Card0     =>  DrvProfile : <undefined>
+]
+30- 8月 17:43:39 <I> [ Sysp: XStuff detection data
+	Card0     =>  DDC        : <undefined>
+	Card0     =>  Name       : <undefined>
+	Card0     =>  Vendor     : <undefined>
+	Card0     =>  Primary    : 00-15-0
+	Card0     =>  Chipset    : generic
+	Card0     =>  Vsync      : 61
+	Card0     =>  Hsync      : 48
+	Card0     =>  Vesa       : 1024 768 47 60
+	Card0     =>  FbTiming   : "1024x768" 62.35 1024 1056 1184 1312 768 772 776 792 -HSync -VSync 
+	Card0     =>  Dacspeed   : 400
+	Card0     =>  Modeline   : <undefined>
+	Card0     =>  Memory     : 1024
+	Card0     =>  RandR      : <undefined>
+	Card0     =>  Current    : 00-15-0
+	Card0     =>  RawDef     : None
+	Card0     =>  Option     : None
+	Card0     =>  Extension  : None
+	Card0     =>  Module     : vmware
+	Card0     =>  Display    : CRT
+	Card0     =>  ColorDepth : 24
+	Card0     =>  VesaBios   : 2.0
+	Card0     =>  FBBoot     : 800 600 8 771
+	Card0     =>  FBBoot     : 800 600 16 788
+	Card0     =>  FBBoot     : 800 600 8 804
+	Card0     =>  FBBoot     : 800 600 16 818
+	Card0     =>  FBBoot     : 800 600 24 832
+	Card0     =>  FBBoot     : 800 480 8 884
+	Card0     =>  FBBoot     : 800 480 16 885
+	Card0     =>  FBBoot     : 800 480 24 886
+	Card0     =>  FBBoot     : 1024 768 8 773
+	Card0     =>  FBBoot     : 1024 768 24 833
+	Card0     =>  FBBoot     : 1024 768 8 805
+	Card0     =>  FBBoot     : 1024 768 16 791
+	Card0     =>  FBBoot     : 1024 768 16 819
+	Card0     =>  FBBoot     : 1152 864 8 806
+	Card0     =>  FBBoot     : 1152 864 16 820
+	Card0     =>  FBBoot     : 1152 864 24 834
+	Card0     =>  FBBoot     : 1280 1024 8 808
+	Card0     =>  FBBoot     : 1280 1024 16 794
+	Card0     =>  FBBoot     : 1280 1024 8 775
+	Card0     =>  FBBoot     : 1280 960 24 835
+	Card0     =>  FBBoot     : 1280 1024 24 836
+	Card0     =>  FBBoot     : 1280 720 8 866
+	Card0     =>  FBBoot     : 1280 720 16 867
+	Card0     =>  FBBoot     : 1280 720 24 868
+	Card0     =>  FBBoot     : 1280 800 8 872
+	Card0     =>  FBBoot     : 1280 800 16 873
+	Card0     =>  FBBoot     : 1280 800 24 874
+	Card0     =>  FBBoot     : 1280 960 8 807
+	Card0     =>  FBBoot     : 1280 960 16 821
+	Card0     =>  FBBoot     : 1280 1024 16 822
+	Card0     =>  FBBoot     : 1280 768 8 887
+	Card0     =>  FBBoot     : 1280 768 16 888
+	Card0     =>  FBBoot     : 1280 768 24 889
+	Card0     =>  FBBoot     : 1366 768 8 842
+	Card0     =>  FBBoot     : 1366 768 16 843
+	Card0     =>  FBBoot     : 1366 768 24 844
+	Card0     =>  FBBoot     : 1400 1050 16 823
+	Card0     =>  FBBoot     : 1400 1050 8 809
+	Card0     =>  FBBoot     : 1400 1050 24 837
+	Card0     =>  FBBoot     : 1440 900 8 875
+	Card0     =>  FBBoot     : 1440 900 16 876
+	Card0     =>  FBBoot     : 1440 900 24 877
+	Card0     =>  FBBoot     : 1600 1200 8 810
+	Card0     =>  FBBoot     : 1600 1200 16 824
+	Card0     =>  FBBoot     : 1600 1200 24 838
+	Card0     =>  FBBoot     : 1680 1050 8 845
+	Card0     =>  FBBoot     : 1680 1050 16 846
+	Card0     =>  FBBoot     : 1680 1050 24 847
+	Card0     =>  FBBoot     : 1920 1440 16 827
+	Card0     =>  FBBoot     : 1920 1440 8 813
+	Card0     =>  FBBoot     : 1920 1440 24 841
+	Card0     =>  FBBoot     : 1920 1080 8 869
+	Card0     =>  FBBoot     : 1920 1080 16 870
+	Card0     =>  FBBoot     : 1920 1080 24 871
+	Card0     =>  FBBoot     : 1920 1200 8 848
+	Card0     =>  FBBoot     : 1920 1200 16 849
+	Card0     =>  FBBoot     : 1920 1200 24 850
+	Card0     =>  FBBoot     : 2048 1536 8 851
+	Card0     =>  FBBoot     : 2048 1536 16 852
+	Card0     =>  FBBoot     : 2048 1536 24 853
+]
+30- 8月 17:43:40 <I> [ Sysp: 3D detection data
+	Card3D0   =>  Install    : <none>
+	Card3D0   =>  Remove     : <none>
+	Card3D0   =>  Packages   : <none>
+	Card3D0   =>  Active     : 0
+	Card3D0   =>  Answer     : no
+	Card3D0   =>  ScriptReal : <none>
+	Card3D0   =>  ScriptSoft : <none>
+	Card3D0   =>  Flag       : <none>
+]
+

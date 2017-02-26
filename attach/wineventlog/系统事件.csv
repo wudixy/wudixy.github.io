@@ -1,0 +1,20 @@
+级别,日期和时间,来源,事件 ID,任务类别
+信息,2017/2/25 星期六 17:07:09,Microsoft-Windows-Security-Auditing,4608,安全状态更改,"Windows 正在启动。
+
+当 LSASS.EXE 启动且审核子系统进行初始化时，会记录此事件。"
+信息,2017/2/24 星期五 12:04:05,Microsoft-Windows-Security-Auditing,4616,安全状态更改,"更改了系统时间。
+
+使用者:
+	安全 ID:	LOCAL SERVICE
+	帐户名:		LOCAL SERVICE
+	帐户域:	NT AUTHORITY
+	登录 ID:	0x3E5
+
+进程信息:
+	进程 ID:	0x554
+	名称:		C:\Windows\System32\svchost.exe
+
+以前的时间:		?2017?-?02?-?24T04:04:05.647492300Z
+新时间:		?2017?-?02?-?24T04:04:05.646000000Z
+
+当更改系统时间时会生成此事件。这对于 Windows 时间服务属正常情况，该服务以系统特权运行，定期更改系统时间。其他的系统时间更改意味着对计算机的破坏。"

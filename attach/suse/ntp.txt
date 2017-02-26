@@ -1,0 +1,3 @@
+24 Feb 16:13:22 ntpd[16585]: synchronized to LOCAL(0), stratum 10
+24 Feb 16:13:22 ntpd[16585]: kernel time sync status change 2001
+

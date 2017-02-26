@@ -1,0 +1,16 @@
+Examples of 4719
+System audit policy was changed.
+
+Subject:
+
+   Security ID:  S-1-5-21-3108364787-189202583-342365621-500
+   Account Name:  Administrator
+   Account Domain:  WIN-R9H529RIO4Y
+   Logon ID:  0x169e9
+
+Audit Policy Change:
+
+   Category:  Logon/Logoff
+   Subcategory:  Special Logon
+   Subcategory GUID: {0CCE921B-69AE-11D9-BED3-505054503030}
+   Changes:  Failure added

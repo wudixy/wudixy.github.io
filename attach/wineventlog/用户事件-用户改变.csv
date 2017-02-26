@@ -1,0 +1,170 @@
+﻿级别,日期和时间,来源,事件 ID,任务类别
+信息,2017/2/25 星期六 18:11:08,Microsoft-Windows-Security-Auditing,4738,用户帐户管理,"已更改用户帐户。
+
+使用者:
+	安全 ID:		CG-NOTEBOOK\CG
+	帐户名:		CG
+	帐户域:		CG-NOTEBOOK
+	登录 ID:		0x51690
+
+目标帐户:
+	安全 ID:		CG-NOTEBOOK\test_user
+	帐户名:		test_user
+	帐户域:		CG-NOTEBOOK
+
+已更改的属性:
+	SAM 帐户名:	test_user
+	显示名称:		test user
+	用户主体名称:	-
+	主目录:		<未设置值>
+	主驱动器:	<未设置值>
+	脚本路径:	<未设置值>
+	配置文件路径:	<未设置值>
+	用户工作站:	<未设置值>
+	上次设置的密码:	2017/2/25 18:11:08
+	帐户过期:	<从不>
+	主要组 ID:	513
+	允许委派给:	-
+	旧 UAC 值:	0x10
+	新 UAC 值:	0x10
+	用户帐户控制:	-
+	用户参数:	<未设置值>
+	SID 历史:	-
+	登录时间(以小时计):全部
+
+附加信息:
+	特权:		-"
+信息,2017/2/25 星期六 18:11:08,Microsoft-Windows-Security-Auditing,4738,用户帐户管理,"已更改用户帐户。
+
+使用者:
+	安全 ID:		CG-NOTEBOOK\CG
+	帐户名:		CG
+	帐户域:		CG-NOTEBOOK
+	登录 ID:		0x51690
+
+目标帐户:
+	安全 ID:		CG-NOTEBOOK\test_user
+	帐户名:		test_user
+	帐户域:		CG-NOTEBOOK
+
+已更改的属性:
+	SAM 帐户名:	test_user
+	显示名称:		test user
+	用户主体名称:	-
+	主目录:		<未设置值>
+	主驱动器:	<未设置值>
+	脚本路径:	<未设置值>
+	配置文件路径:	<未设置值>
+	用户工作站:	<未设置值>
+	上次设置的密码:	2017/2/25 18:11:08
+	帐户过期:	<从不>
+	主要组 ID:	513
+	允许委派给:	-
+	旧 UAC 值:	0x10
+	新 UAC 值:	0x10
+	用户帐户控制:	-
+	用户参数:	<未设置值>
+	SID 历史:	-
+	登录时间(以小时计):全部
+
+附加信息:
+	特权:		-"
+信息,2017/2/25 星期六 18:11:08,Microsoft-Windows-Security-Auditing,4724,用户帐户管理,"试图重置帐户密码。
+
+使用者:
+	安全 ID:		CG-NOTEBOOK\CG
+	帐户名:		CG
+	帐户域:		CG-NOTEBOOK
+	登录 ID:		0x51690
+
+目标帐户:
+	安全 ID:		CG-NOTEBOOK\test_user
+	帐户名:		test_user
+	帐户域:		CG-NOTEBOOK"
+信息,2017/2/25 星期六 18:11:08,Microsoft-Windows-Security-Auditing,4738,用户帐户管理,"已更改用户帐户。
+
+使用者:
+	安全 ID:		CG-NOTEBOOK\CG
+	帐户名:		CG
+	帐户域:		CG-NOTEBOOK
+	登录 ID:		0x51690
+
+目标帐户:
+	安全 ID:		CG-NOTEBOOK\test_user
+	帐户名:		test_user
+	帐户域:		CG-NOTEBOOK
+
+已更改的属性:
+	SAM 帐户名:	test_user
+	显示名称:		test_user
+	用户主体名称:	-
+	主目录:		<未设置值>
+	主驱动器:	<未设置值>
+	脚本路径:	<未设置值>
+	配置文件路径:	<未设置值>
+	用户工作站:	<未设置值>
+	上次设置的密码:	2017/2/25 18:11:08
+	帐户过期:	<从不>
+	主要组 ID:	513
+	允许委派给:	-
+	旧 UAC 值:	0x15
+	新 UAC 值:	0x10
+	用户帐户控制:	
+		启用的帐户
+		'不要求密码' - 已禁用
+	用户参数:	-
+	SID 历史:	-
+	登录时间(以小时计):全部
+
+附加信息:
+	特权:		-"
+信息,2017/2/25 星期六 18:11:08,Microsoft-Windows-Security-Auditing,4722,用户帐户管理,"已启用用户帐户。
+
+使用者:
+	安全 ID:		CG-NOTEBOOK\CG
+	帐户名:		CG
+	帐户域:		CG-NOTEBOOK
+	登录 ID:		0x51690
+
+目标帐户:
+	安全 ID:		CG-NOTEBOOK\test_user
+	帐户名:		test_user
+	帐户域:		CG-NOTEBOOK"
+信息,2017/2/25 星期六 18:11:08,Microsoft-Windows-Security-Auditing,4720,用户帐户管理,"已创建用户帐户。
+
+使用者:
+	安全 ID:		CG-NOTEBOOK\CG
+	帐户名:		CG
+	帐户域:		CG-NOTEBOOK
+	登录 ID:		0x51690
+
+新帐户:
+	安全 ID:		CG-NOTEBOOK\test_user
+	帐户名:		test_user
+	帐户域:		CG-NOTEBOOK
+
+属性:
+	SAM 帐户名:	test_user
+	显示名称:	<未设置值>
+	用户主体名称:	-
+	主目录:		<未设置值>
+	主驱动器:	<未设置值>
+	脚本路径:	<未设置值>
+	配置文件路径:	<未设置值>
+	用户工作站:	<未设置值>
+	上次设置的密码:<从不>
+	帐户过期:	<从不>
+	主要组 ID:	513
+	允许委托给:	-
+	旧 UAC 值:	0x0
+	新 UAC 值:	0x15
+	用户帐户控制:	
+		已禁用的帐户
+		'不要求密码' - 已启用
+		'普通帐户' - 已启用
+	用户参数:	<未设置值>
+	SID 历史:	-
+	登录时间(以小时计):全部
+
+附加信息:
+	特权		-"
