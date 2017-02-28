@@ -210,6 +210,62 @@ Swap: 2048M Total, 2048M Free
 
 ## shelflog : DISK 的記錄， troubleshooting 用
 
+## cm_stats_hourly_data.xml
+
+Path: /etc/log/autosupport/201702030000.0.files
+
+```
+<asup:ROW col_time_us="36556566964893">
+        <timestamp>1485968440</timestamp>
+        <object>aggregate</object>
+        <instance>n02_fc_aggr0</instance>
+        <instance-uuid>bf8a2f08-e0a2-45a5-813c-57e09b7314c0</instance-uuid>
+        <counter>cp_read_blocks</counter>
+        <value>192250927</value>
+</asup:ROW>
+<asup:ROW col_time_us="36556566965127">
+        <timestamp>1485968440</timestamp>
+        <object>aggregate</object>
+        <instance>n02_fc_aggr0</instance>
+        <instance-uuid>bf8a2f08-e0a2-45a5-813c-57e09b7314c0</instance-uuid>
+        <counter>cp_reads</counter>
+        <value>17005662</value>
+</asup:ROW>
+<asup:ROW col_time_us="36556566965268">
+        <timestamp>1485968440</timestamp>
+        <object>aggregate</object>
+        <instance>n02_fc_aggr0</instance>
+        <instance-uuid>bf8a2f08-e0a2-45a5-813c-57e09b7314c0</instance-uuid>
+        <counter>instance_name</counter>
+        <value>n02_fc_aggr0</value>
+</asup:ROW>
+<asup:ROW col_time_us="36556566965402">
+        <timestamp>1485968440</timestamp>
+        <object>aggregate</object>
+        <instance>n02_fc_aggr0</instance>
+        <instance-uuid>bf8a2f08-e0a2-45a5-813c-57e09b7314c0</instance-uuid>
+        <counter>instance_uuid</counter>
+        <value>bf8a2f08-e0a2-45a5-813c-57e09b7314c0</value>
+</asup:ROW>
+```
+
+轉換後的參考資料：
+
+- [xml2csv](http://www.watermark-images.com/xml-to-csv-conversion.aspx)
+- [xml2csv-desktop](http://www.luxonsoftware.com/converter/xmltocsv)
+
+```
+"1485968440","volume","vol_BDS01_02_vote01","8a8f94d7-5473-4fba-8fc3-bca8d88847a4","total_ops","320297649","36556568609927",0
+"1485968440","volume","vol_BDS01_02_vote01","8a8f94d7-5473-4fba-8fc3-bca8d88847a4","vserver_name","fcp_svm_dr","36556568610061",0
+"1485968440","volume","vol_BDS01_02_vote01","8a8f94d7-5473-4fba-8fc3-bca8d88847a4","vserver_uuid","f9471476-9c30-11e5-948c-00a0985126aa","36556568610198",0
+"1485968440","volume","vol_BDS01_02_vote01","8a8f94d7-5473-4fba-8fc3-bca8d88847a4","write_data","72739156480","36556568610337",0
+"1485968440","volume","vol_BDS01_02_vote01","8a8f94d7-5473-4fba-8fc3-bca8d88847a4","write_latency","69328877994","36556568610482",0
+"1485968440","volume","vol_BDS01_02_vote01","8a8f94d7-5473-4fba-8fc3-bca8d88847a4","write_ops","70220563","36556568610627",0
+"1485968440","volume","vol_BDS01_02_vote02","d655a9d4-c91f-4a84-ba44-f38e5ba4d0c8","avg_latency","78693114782","36556568610925",0
+"1485968440","volume","vol_BDS01_02_vote02","d655a9d4-c91f-4a84-ba44-f38e5ba4d0c8","batched_free_log_cap","2.00%","36556568611068",0
+"1485968440","volume","vol_BDS01_02_vote02","d655a9d4-c91f-4a84-ba44-f38e5ba4d0c8","instance_name","vol_BDS01_02_vote02","36556568611208",0
+```
+
 
 ## CLI command 的輸出方式
 
@@ -224,19 +280,107 @@ usage: netstat [-anMB]
        netstat -T
 ```
 
+### 參考資料
+
+- [Interpreting sysstat output](http://community.netapp.com/t5/FAS-and-V-Series-Storage-Systems-Discussions/Interpreting-sysstat-output/td-p/66181)
+
+- [get data from powershell](http://community.netapp.com/t5/Virtualization-and-Cloud-Articles-and-Resources/Data-ONTAP-PowerShell-Toolkit-Collect-SYSSTAT-type-of-information-in-CSV-format/ta-p/86002)
+
+```
+PS C:\@work\Scripts> .\Get-NaSysStat.ps1 -NaIP 10.58.97.11 -NaUS root -NaPW <password> -Output Perf.csv -Interval 1
+Name                                 Value
+----                                     -----
+Time                                  4/7/2011 4:37:03 PM
+system_model                    FAS6070
+ontap_version                     NetApp Release 8.0.1RC2 7-Mode: Thu Oct 21 01:27:45 PDT 2010
+serial_no                            ***
+system_id                          ***
+hostname                           Array-01
+nfs_ops                              0.00
+cifs_ops                             0.00
+http_ops                             0.00
+fcp_ops                              8.50
+iscsi_ops                           0.00
+read_ops                           0.00
+sys_read_latency               0.00
+write_ops                           8.50
+sys_write_latency               0.32
+total_ops                            8.50
+sys_avg_latency                 0.32
+net_data_recv                     2.20
+net_data_sent                    9.25
+disk_data_read                  169.61
+disk_data_written               584.21
+cpu_busy                          2.12
+avg_processor_busy          1.49
+total_processor_busy         5.98
+num_processors                4
+*********************************************************************
+```
+
+[Redirect output of statit](http://community.netapp.com/t5/Data-ONTAP-Discussions/Redirect-output-of-statit/td-p/11970)
+
+To redirect the ouptut to file from some other unix host.
+ 
+a.) setup secure passwordless ssh or rsh between unix host and netapp filer.
+ 
+b.) then run ssh "filer hostname" "priv set advanced; statit -b" { " " quotes are necessary run it for 10 seconds at least}
+Then run
+
+```
+    ssh "filer hostname" "priv set advanced; statit -e" > file.txt {to end it and redirect to a file}
+```
+ 
+
+3. Is there any tool to understand the output of statit?
+ 
+statit output is very simple. I don't know much about the tool to understand that
+
+### get the statit
+
+[NetApp Statit Command](https://www.bytesizedalex.com/netapp-statit-command/)
+
+```
+FILER01> priv set advanced
+Warning: These advanced commands are potentially dangerous; use
+          them only when directed to do so by NetApp
+          personnel.
+```
+
+```
+FILER04*>statit -e
+
+Hostname: Filer4  ID: 01234567891  Memory: 2862 MB
+  NetApp Release 8.1.2P3 7-Mode: Wed Feb 20 19:56:15 PST 2013
+    <5O>
+  Start time: Thu Jul 30 10:52:33 BST 2015
+
+                       CPU Statistics
+     784.181888 time (seconds)       100 %
+     689.103174 system time           88 %
+      22.282110 rupt time              3 %   (10779740 rupts x 2 usec/rupt)
+     666.821064 non-rupt system time  85 %
+     879.260600 idle time            112 %
+
+     657.598533 time in CP            84 %   100 %
+      18.613492 rupt time in CP                3 %   (8927320 rupts x 2 usec/rupt)
+
+```
    
 
+### 取得log的方式
 
+[Netapp Perfstat](http://www.sysadmintutorials.com/tutorials/netapp/netapp-perfstat-collecting-performance-and-statistics/)
 
-#尚未找到对应关系日志
-SnapMirror: /etc/log/snapmirror
-FlexClone: /etc/log/clone
-Deduplication: /etc/log/sis
-LACP: /etc/log/lacp_log
-Backup: /etc/log/backup and /etc/log/ndmpdlog
-FTP: /etc/log/ftp.cmd and /etc/log/ftp.xfer
-Shelf Messages: /etc/log/shelflog/shelflogata and /etc/log/shelflogesh
-Volume Operations: /etc/log/vol_history
-Crash Files: /etc/log/crash/aggregates/
-Performance Archives: /etc/log/stats/archives
-ACP: /etc/log/acp/acplog_master and /etc/log/acplog
+[perfstat tools video](https://www.youtube.com/watch?v=ADzgqUGD2zA)
+
+![perfstat](http://www.sysadmintutorials.com/files/2015/09/perfstatgui.jpg)
+
+[ssh 手動設定流程](https://www.youtube.com/watch?v=ADzgqUGD2zA)
+
+rsh filername sysstat 1 > filer.log
+
+[說明文件1](https://kb.netapp.com/support/s/article/ka31A00000011HiQAI/how-to-redirect-sysstat-output-information-to-a-file?language=ja)
+
+[說明文件2](https://kb.netapp.com/support/s/article/ka31A0000000kIMQAY/how-to-configure-and-enable-remote-shell-rsh-access-on-a-storage-system?language=ja)
+
